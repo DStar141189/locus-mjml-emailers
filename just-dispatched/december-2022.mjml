@@ -1,0 +1,237 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600" />
+    <mj-title>Just Dispatched | December 2022</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" font-size="14px" line-height="1.45" />
+      <mj-section padding="0" background-color="white" />
+      <mj-column padding="0" />
+      <mj-class name="section-odd" background-size="contain" background-repeat="no-repeat" padding-top="50px" padding-bottom="30px" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/section-banner-odd.png" />
+      <mj-class name="section-even" background-size="contain" background-repeat="no-repeat" padding-top="50px" padding-bottom="30px" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/section-banner-even.png" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .title {
+        max-width: 80%;
+        margin: 0 auto 16px;
+      }
+
+      .description {
+        max-width: 90%;
+        margin: 0 auto;
+      }
+
+      .mt-ve table {
+        margin-top: -10px;
+      }
+
+      .odd {
+        display: flex;
+        justify-content: start;
+      }
+
+      .even {
+        display: flex;
+        justify-content: end;
+      }
+
+      .num {
+        font-size: 72px;
+        font-weight: 200;
+        color: white;
+        font-family: 'Helvetica Neue', sans-serif;
+      }
+
+      .odd span {
+        margin-top: 16px;
+        margin-left: 32px;
+      }
+
+      .even span {
+        margin-top: 16px;
+        margin-right: 32px;
+      }
+    </mj-style>
+    <mj-style>
+      @media only screen and (max-width:479.98px) {
+        .title {
+          font-size: 18px;
+          max-width: 90% !important;
+        }
+
+        .description {
+          max-width: 100% !important;
+        }
+
+        .mt-ve table {
+          margin-top: 10px !important;
+        }
+
+        .num {
+          font-size: 46px !important;
+        }
+
+        .odd span {
+          margin-top: -16px !important;
+          margin-left: 16px !important;
+        }
+
+        .even span {
+          margin-top: -16px !important;
+          margin-right: 16px !important;
+        }
+
+        .cta-content {
+          padding: 30px 25px 10px !important;
+        }
+
+        .cta-content p,
+        .cta-content h3 {
+          text-align: center !important;
+        }
+
+        .cta-btn {
+          padding: 10px 25px 50px !important;
+        }
+
+        .cta-btn table {
+          margin: 0 auto;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="ghostwhite">
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/logo-header.png" alt="" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-spacer height="10px" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/hero-banner.png" alt="" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text font-size="15px" font-weight="500" align="center" padding="20px 0">
+          <p style="max-width:400px;margin:10px auto;">Brand new features and platform updates to boost operational excellence</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-odd">
+      <mj-column width="100%">
+        <mj-raw>
+          <div class="odd">
+            <span class="num">01</span>
+          </div>
+        </mj-raw>
+        <mj-image css-class="mt-ve" width="340px" align="center" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/screenshot-1.png" alt="" />
+        <mj-text font-size="13px" align="center">
+          <h2 class="title">Now ship parcels with Locus Carrier Partners</h2>
+          <p class="description">Outsource deliveries to a vast carrier network right within the Locus platform. Choose the right carrier for each order based on fulfillment timelines and shipping costs.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-even">
+      <mj-column width="100%">
+        <mj-raw>
+          <div class="even">
+            <span class="num">02</span>
+          </div>
+        </mj-raw>
+        <mj-image css-class="mt-ve" width="340px" align="center" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/screenshot-2.png" alt="" />
+        <mj-text font-size="13px" align="center">
+          <h2 class="title">Unified security and compliance workflows uninterrupted operations</h2>
+          <p class="description">Implement 2FA and role-based permissions across all business levels to maintain data privacy and security. Achieve best practices for global regulations with detailed audit logs.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-odd">
+      <mj-column width="100%">
+        <mj-raw>
+          <div class="odd">
+            <span class="num">03</span>
+          </div>
+        </mj-raw>
+        <mj-image css-class="mt-ve" width="340px" align="center" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/screenshot-3.png" alt="" />
+        <mj-text font-size="13px" align="center">
+          <h2 class="title">Deliver actionable insights through informational email digests</h2>
+          <p class="description">Share impact metrics and critical KPIs with stakeholders through email and equip them with first-hand intelligence for well-informed decision-making.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-even">
+      <mj-column width="100%">
+        <mj-raw>
+          <div class="even">
+            <span class="num">04</span>
+          </div>
+        </mj-raw>
+        <mj-image css-class="mt-ve" width="340px" align="center" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/screenshot-4.png" alt="" />
+        <mj-text font-size="13px" align="center">
+          <h2 class="title">Seamlessly route delivery vehicles with Locus Navigate</h2>
+          <p class="description">Now display route restrictions and local regulations on load capacity, traffic zones, etc. for commercial vehicles directly into the Locus app to help drivers carry out deliveries without complications.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-odd">
+      <mj-column width="100%">
+        <mj-raw>
+          <div class="odd">
+            <span class="num">05</span>
+          </div>
+        </mj-raw>
+        <mj-image css-class="mt-ve" width="340px" align="center" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/screenshot-5.png" alt="" />
+        <mj-text font-size="13px" align="center">
+          <h2 class="title">Give drivers a single channel and streamlined view of their earnings</h2>
+          <p class="description">Make lives easier for drivers with easy access to current and potential earnings within the Locus driver app.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-even">
+      <mj-column width="100%">
+        <mj-raw>
+          <div class="even">
+            <span class="num">06</span>
+          </div>
+        </mj-raw>
+        <mj-image css-class="mt-ve" width="340px" align="center" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/screenshot-6.png" alt="" />
+        <mj-text font-size="13px" align="center">
+          <h2 class="title">Optimize schedules in real-time with fair task allocation</h2>
+          <p class="description">Automatically swap deliveries to best-suited drivers to ensure balanced shifts and work parity.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#452966">
+      <mj-column vertical-align="middle" width="54%">
+        <mj-text css-class="cta-content" color="white" padding-left="60px">
+          <p style="margin-bottom: 0px;">To know more, contact your</p>
+          <h3 style="font-size:22px;margin-top:10px;margin-bottom:0px;">Customer Success Manager</h3>
+        </mj-text>
+        <mj-button href="mailto:support@locus.sh" css-class="cta-btn" padding-left="60px" background-color="#14B5F0" border-radius="0" font-size="14px" font-weight="600" align="left" inner-padding="8px 50px">Contact now!</mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" width="46%">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/image-customer-success-manager.png" alt="" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#290A38">
+      <mj-column width="100%">
+        <mj-image width="120px" align="center" padding-top="32px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/footer-logo-light.png" alt="" />
+        <mj-text align="center" font-size="11px" font-weight="500" color="white">
+          <p style="margin-bottom:6px;">{{ site_settings.company_name }},</p>
+          <p style="margin-top:6px;">{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004</p>
+        </mj-text>
+        <mj-social icon-size="30px" border-radius="0px" mode="horizontal">
+          <mj-social-element href="https://twitter.com/Locus_Sh" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-tw.png" />
+          <mj-social-element href="https://www.instagram.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-in.png" />
+          <mj-social-element href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-yt.png" />
+          <mj-social-element href="https://www.linkedin.com/company/locus-sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-li.png" />
+          <mj-social-element href="https://www.facebook.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-fb.png" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" font-weight="500" padding-bottom="32px">
+          <p style="margin:0 auto;"><a style="color:#14B5F0;" href="{{ unsubscribe_link }}">Unsubscribe</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

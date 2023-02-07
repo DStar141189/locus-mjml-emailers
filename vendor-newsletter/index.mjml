@@ -1,0 +1,334 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" font-size="14px" line-height="1.45" />
+      <mj-button background-color="#14B5F0" font-size="12px" font-weight="600" border-radius="0" />
+    </mj-attributes>
+    <mj-title>Vendor Newsletter</mj-title>
+    <mj-class name="cultured" background-color="#FAF5F2" />
+    <mj-class name="alabaster" background-color="#F2EBE3" />
+    <mj-style inline="inline">
+      .cultured {
+      background-color: #FAF5F2;
+      }
+
+      .alabaster {
+      background-color: #F2EBE3;
+      }
+
+      .fw-600 {
+      font-weight: 600 !important;
+      }
+
+      a {
+      color: #14B5F0;
+      }
+
+      .m-auto {
+      margin: 0 auto !important;
+      }
+
+      .m-0 {
+      margin: 0;
+      }
+
+      .my-1 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      }
+
+      .mt-n-50p, .mt-n-50p img {
+      margin-top: -40% !important;
+      }
+
+      .mb-n-50p, .mb-n-50p img {
+      margin-bottom: -40% !important;
+      }
+
+      .py-1 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      }
+
+      .pa-1 {
+      padding: 1rem;
+      }
+
+      .pa-1 {
+      margin: 1rem;
+      }
+
+      .mb-0 {
+      margin-bottom: 0;
+      }
+
+      .mt-0 {
+      margin-top: 0;
+      }
+
+      .max-content {
+      max-width: max-content;
+      }
+
+      .text-center {
+      text-align: center !important;
+      }
+
+      .locus-border {
+      display: block;
+      margin-top: 4px;
+      padding: 1px 0;
+      background: linear-gradient(90deg, rgba(20, 181, 240, 1) 25%, rgba(0, 209, 115, 1) 25%, rgba(0, 209, 115, 1) 50%, rgba(176, 102, 255, 1) 50%, rgba(176, 102, 255, 1) 75%, rgba(255, 99, 41, 1) 75%);
+      }
+
+      .border-rt-line > table {
+      padding-right: 1rem;
+      }
+
+      .border-lt-line > table {
+      padding-left: 1rem;
+      }
+
+      .border-bt {
+      border-bottom: 1px solid #997861;
+      }
+
+      .flex {
+      display: flex;
+      }
+
+      .inline-flex {
+      display: inline-flex;
+      }
+
+      .text-img {
+      height: 132px;
+      object-fit: contain;
+      }
+
+      h1,
+      p {
+      margin: 0;
+      }
+    </mj-style>
+    <mj-style>
+      .hide-on-mobile { display: none !important;}
+      .hide-on-desk { display: block !important;}
+      @media only screen and (min-width: 480px) {
+      .hide-on-mobile {
+      display: block !important;
+      }
+      .hide-on-desk {
+      display: none !important;
+      }
+      }
+      @media only screen and (max-width:479.98px) {
+      .border-rt-line > table {
+      border-right: 0 !important;
+      }
+      .border-lt-line > table {
+      border-left: 0 !important;
+      }
+      .mbl-border-bt {
+      border-bottom: 1px solid #997861;
+      }
+      .mbl-text-center h4, .mbl-text-center div {
+      text-align: center !important;
+      }
+      .mbl-text-center > table {
+      margin: 0 auto !important;
+      }
+      .mbl-py-10 {
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+      }
+      .d-desk-block {
+      display: block !important;
+      }
+      .full-width {
+      max-width: 100% !important;
+      }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#290A38" padding="0">
+      <mj-column width="100%" padding="0">
+        <mj-image align="right" padding="0" width="30px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/top-right-vector.png" alt="" />
+      </mj-column>
+      <mj-column width="100%" padding="12px 0">
+        <mj-image align="center" padding="0" width="120px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/locus-logo.png" alt="" />
+      </mj-column>
+      <mj-column width="100%" padding="12px 0">
+        <mj-image align="center" padding="0" width="150px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/growth-delivered.png" alt="" />
+      </mj-column>
+      <mj-column width="100%" padding="12px 0">
+        <mj-text align="center" color="white">
+          <h1 class="full-width" style="max-width:80%;margin:0 auto;">A real-world ready dispatch management platform for last-mile excellence</h1>
+        </mj-text>
+        <mj-button padding-top="25px" href="https://locus.sh/#schedule-demo">Schedule a demo</mj-button>
+      </mj-column>
+      <mj-column width="100%" padding="0">
+        <mj-image align="left" padding="0" width="30px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/bottom-left-vector.png" alt="" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FAF5F2" padding="30px 0">
+      <mj-column width="100%">
+        <mj-text align="center" padding-bottom="30px">
+          <h2 class="max-content m-auto">Our Latest Engagements<span class="locus-border"></span></h2>
+        </mj-text>
+        <mj-text align="center" padding-bottom="25px">
+          <p>We had an eventful day at the SCM Logistics World Delhi, on November 4, 2022. Our leadership shared their industry perspectives across two insightful sessions.</p>
+        </mj-text>
+        <mj-text align="center" color="#B066FF" font-weight="600">
+          <h3 style="max-width:70%;margin:0 auto;">Build Vs Buy: How to Get the Best of Both Worlds from Your Last Mile</h3>
+        </mj-text>
+        <mj-image align="center" width="480px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/img-buy-vs-build.png" alt="" />
+      </mj-column>
+      <mj-group width="100%">
+        <mj-column padding="5px 25px" width="30%">
+          <mj-image css-class="mbl-py-10" padding="5px 25px" width="60px" align="right" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/quote-mark-left.png" alt="" />
+        </mj-column>
+        <mj-column width="40%">
+          <mj-spacer height="10px" />
+        </mj-column>
+        <mj-column padding="5px 25px" width="30%">
+          <mj-image css-class="mbl-py-10" padding="5px 25px" width="60px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/quote-mark-right.png" alt="" />
+        </mj-column>
+      </mj-group>
+      <mj-column width="100%">
+        <mj-text align="center" font-style="italic" font-weight="600">
+          <p class="full-width" style="max-width:70%;margin:0 auto;">Do you have the people, the resources operationally and technically, to support a build strategy?</p>
+        </mj-text>
+        <mj-text align="center">
+          <p>This is the key question Archi Serrao, Director of Sales, at Locus, asks companies considering building their own technology to support final mile strategy and goals. In the talk, he gave clear pros and cons of purchasing a suitable off-the-shelf technology solution compared to buying in-house.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F2EBE3">
+      <mj-column width="100%">
+        <mj-text align="center">
+          <h2 class="max-content m-auto">In Focus<span class="locus-border"></span></h2>
+        </mj-text>
+        <mj-text align="center">
+          <p>Our flagship webinar series features industry leaders across geographies and sectors for insights on achieving meaningful business growth through last-mile excellence.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center">
+          <p>The latest session features one of the Middle East’s largest retailers, Lulu Group International, on strategies to succeed in omnichannel retail fulfillment.</p>
+        </mj-text>
+        <mj-text align="center" color="#B066FF">
+          <h3 class="mb-0">Why Omnichannel is the future of Retail in the Middle East</h3>
+        </mj-text>
+        <mj-text align="center" font-weight="600">
+          <h4 class="mt-0">Wednesday November 23, 2022, | 3:30 PM IST</h4>
+        </mj-text>
+        <mj-button background-color="#14B5F0" color="white" href="https://locus.sh/webinars/why-omnichannel-future-of-retail-in-middle-east/">Register now</mj-button>
+      </mj-column>
+      <mj-column width="96%">
+        <mj-divider padding-top="25px" padding-bottom="25px" border-width="1px" border-style="solid" border-color="#997861" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center">
+          <p style="max-width:90%;margin:0 auto;">A recent session focused on another high-growth in the Middle East: Medicine Delivery.</p>
+        </mj-text>
+        <mj-text align="center" color="#B066FF">
+          <h3>The Emerging Trend of Medicine Delivery in Egypt And The Middle East</h3>
+        </mj-text>
+        <mj-button background-color="#14B5F0" color="white" href="https://locus.sh/webinars/medicine-delivery-trends-in-egypt-and-middle-east/">Watch on demand</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FAF5F2">
+      <mj-column width="100%">
+        <mj-text align="center">
+          <h2 class="max-content m-auto">Why Locus<span class="locus-border"></span></h2>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="py-1">
+        <mj-image css-class="hide-on-desk" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/image-mbl-platform.svg" alt="" />
+        <mj-image css-class="hide-on-mobile" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/image-platform.svg" alt="" />
+      </mj-column>
+      <mj-column width="100%" css-class="py-1">
+        <mj-text align="center">
+          <p>Our clients, spanning across 400 cities worldwide, trust Locus to optimize their logistics, improve last-mile transparency, reduce costs, and enhance end-customer delight.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" css-class="py-1">
+        <mj-image css-class="hide-on-desk" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/logos-mbl.png" alt="" />
+        <mj-image css-class="hide-on-mobile" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/logos-desk.png" alt="" />
+      </mj-column>
+      <mj-column width="31%" css-class="py-1">
+        <mj-image width="130px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/on-time-deliveries.png" alt="" />
+        <mj-text align="center" color="#B066FF" font-weight="600" padding-bottom="0">
+          <h3 class="m-0">99.5%</h3>
+        </mj-text>
+        <mj-text align="center" font-weight="600" padding-top="0">
+          <p>On time deliveries</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="31%" css-class="py-1">
+        <mj-image width="130px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/cost-saved.png" alt="" />
+        <mj-text align="center" color="#B066FF" font-weight="600" padding-bottom="0">
+          <h3 class="m-0">$200 Million+</h3>
+        </mj-text>
+        <mj-text align="center" font-weight="600" padding-top="0">
+          <p>Cost saved</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="31%" css-class="py-1">
+        <mj-image width="130px" src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/across-the-globe.png" alt="" />
+        <mj-text align="center" color="#B066FF" font-weight="600" padding-bottom="0">
+          <h3 class="m-0">650 million+</h3>
+        </mj-text>
+        <mj-text align="center" font-weight="600" padding-top="0">
+          <p>Deliveries Across the Globe</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F2EBE3">
+      <mj-column width="100%">
+        <mj-text align="center">
+          <h2 class="max-content m-auto">Grow To New Heights With Our Clients<span class="locus-border"></span></h2>
+        </mj-text>
+      </mj-column>
+      <mj-column width="90%" css-class="py-1">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/shyft-customer-success-story.png" alt="" href="https://www.youtube.com/watch?v=157xXkvnA4g" />
+        <mj-text align="center" color="#B066FF">
+          <h3 class="mt-0">How Shyft powered 7X growth with Locus’ last-mile logistics platform</h3>
+        </mj-text>
+      </mj-column>
+      <mj-column width="90%" css-class="py-1">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/vendor-newsletter-template/bluedart-dhl-customer-success-story.png" alt="" href="https://www.youtube.com/watch?v=rXK8Fcbmq-s" />
+        <mj-text align="center" color="#B066FF">
+          <h3 class="mt-0">Bluedart DHL: Increasing 27% Deliveries Per Day With Accurate Routing</h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FAF5F2">
+      <mj-column width="100%">
+        <mj-text font-size="14px" align="center">
+          <h4>Want to convert your last-mile from cost center to a revenue generator?</h4>
+        </mj-text>
+        <mj-button href="https://locus.sh/#schedule-demo">Schedule a demo</mj-button>
+      </mj-column>
+      <mj-column padding-top="25px" width="100%">
+        <mj-text align="center" font-size="11px" font-weight="500">
+          <p>{{ site_settings.company_name }},</p>
+          <p>{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004</p>
+        </mj-text>
+        <mj-social icon-size="30px" border-radius="0px" mode="horizontal">
+          <mj-social-element href="https://twitter.com/Locus_Sh" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-tw.png" />
+          <mj-social-element href="https://www.instagram.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-in.png" />
+          <mj-social-element href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-yt.png" />
+          <mj-social-element href="https://www.linkedin.com/company/locus-sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-li.png" />
+          <mj-social-element href="https://www.facebook.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-fb.png" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" font-weight="500">
+          <p><a href="{{ unsubscribe_link }}">Unsubscribe</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
