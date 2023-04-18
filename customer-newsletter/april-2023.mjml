@@ -1,0 +1,313 @@
+<mjml>
+  <mj-head>
+    <mj-title>Locus In The Spotlight - April 2023</mj-title>
+    <mj-breakpoint width="600px" />
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700" />
+    <mj-attributes>
+      <mj-text color="#290A38" />
+      <mj-all font-family="Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" font-size="16px" line-height="1.45" />
+      <mj-button background-color="#14B5F0" inner-padding="14px 60px" font-size="17px" font-weight="600" border-radius="0" />
+    </mj-attributes>
+    <mj-style>
+      .locus-orange {
+        color: #FF6329;
+      }
+
+      .locus-blue {
+        color: #14B5F0;
+      }
+
+      .locus-purple {
+        color: #B066FF;
+      }
+
+      .locus-green {
+        color: #00D173;
+      }
+
+      .fw-400 {
+        font-weight: 400;
+      }
+
+      .fw-600 {
+        font-weight: 600;
+      }
+
+      .fw-700 {
+        font-weight: 700;
+      }
+
+      .fw-800 {
+        font-weight: 800;
+      }
+
+      .fs-italic {
+        font-style: italic;
+      }
+
+      .m-0 {
+        margin: 0;
+      }
+
+      .title-img {
+        margin-left: 16px;
+        width: auto;
+        max-height: 45px;
+        vertical-align: bottom;
+      }
+
+      p a {
+        color: #14B5F0;
+        font-weight: 500;
+      }
+
+      a.arrow-link {
+        color: #14B5F0;
+        font-size: 1.1em;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      @media only screen and (min-width: 600px) {
+
+        .align-left,
+        .align-left div {
+          text-align: left !important;
+        }
+
+        .align-right,
+        .align-right div {
+          text-align: right !important;
+        }
+      }
+
+      @media only screen and (max-width: 599.98px) {
+        .footer-gradient {
+          background: linear-gradient(180deg, rgba(250, 245, 242, 1) 44%, rgba(242, 235, 227, 1) 44%) !important;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-gradient {
+        background: linear-gradient(90deg, rgba(250, 245, 242, 1) 50%, rgba(242, 235, 227, 1) 50%);
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="800px" background-color="#eee">
+    <mj-section background-color="#fff" padding="10px 30px">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image align="center" css-class="align-left" width="120px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/locus-logo-dark.png" alt="Locus Logo" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text align="center" css-class="align-right" color="#290A38" font-size="17px" font-style="italic">
+          <p>April 2023 Edition</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#290A38">
+      <mj-column width="100%">
+        <mj-text align="center" text-transform="uppercase" color="white" font-size="36px" font-weight="800" line-height="1">
+          <h1 class="m-0" style="font-size:1em;"><span class="fw-400">Locus in </span><span class="locus-blue">spotlight</span><img class="title-img" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/icon-bulb.png" alt="icon-bulb"></h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="100%">
+        <mj-text>
+          <p>Wouldn’t it be great to grow your business without hiring additional staff for logistics?</p>
+          <p>We get it: Scaling last-mile fulfillment while keeping costs in check is tricky because of unclear addresses, last-minute cancellations, or too many packages to deliver.</p>
+        </mj-text>
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/banner-image.jpg" alt="Banner image" />
+        <mj-text>
+          <p>That’s where Locus ShipFlex comes in: Our latest last-mile solution simplifies third-party deliveries from end-to-end, which means:</p>
+          <ul style="padding-left:12px;list-style-type:'- ';">
+            <li>No steep investments as needed for a captive fleet</li>
+            <li>Access to a large market through an extensive third-party delivery network</li>
+            <li>Real-time visibility and a consistent branded experience, even with an outsourced fleet</li>
+          </ul>
+        </mj-text>
+        <mj-button href="https://locus.sh/ship-flex/">Explore Now</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="100%">
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+        <mj-text align="center" text-transform="uppercase" font-size="27px" font-weight="800">
+          <h2 class="m-0" style="font-size:1em;"><span class="fw-400">A word from </span>our <span class="locus-orange">leaders</span><img class="title-img" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/icon-person.png" alt="icon-person"></h2>
+        </mj-text>
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="40%" vertical-align="middle">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-leaders-image-01.jpg" alt="section-leaders-image-01" />
+      </mj-column>
+      <mj-column width="60%" vertical-align="middle">
+        <mj-text line-height="1.25">
+          <p class="fw-700 fs-italic">“Founders now recognize the importance of balancing treasury management with product development and distribution.”</p>
+          <p>In a recent episode of CNBC TV’s The Big Deal with Nisha Poddar, <span class="fw-700">Nishith Rastogi, Founder and CEO of Locus</span> discussed the impact of the Silicon Valley Bank crisis on the Indian startup ecosystem with other industry experts.</p>
+          <p>To watch the entire interview, <a href="https://www.cnbctv18.com/binge/silicon-valley-bank-crisi-DspWrNJAjzE.htm">click here</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px" direction="rtl">
+      <mj-column width="40%" vertical-align="middle">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-leaders-image-02.jpg" alt="section-leaders-image-02" />
+      </mj-column>
+      <mj-column width="60%" vertical-align="middle">
+        <mj-text line-height="1.25">
+          <p class="fw-700 fs-italic">“Businesses that implement sustainable practices are also likely to see increased revenue streams as a result… upholding this model can even boost employee morale and productivity.”</p>
+          <p>In an article on Trade Finance Global: A leading US business and finance publication, Nishith why brands must first address their last-mile challenge to achieve a sustainable future.</p>
+          <p>Click here to <a href="https://www.tradefinanceglobal.com/posts/brands-must-address-last-mile-challenge/">read more</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="40%" vertical-align="middle">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-leaders-image-03.jpg" alt="section-leaders-image-03" />
+      </mj-column>
+      <mj-column width="60%" vertical-align="middle">
+        <mj-text line-height="1.25">
+          <p class="fw-700 fs-italic">“To address the rising customer expectations,…. stay ahead of the competition, e-commerce brands must improve delivery control, speed, flexibility, costs with technology solutions.”</p>
+          <p>A key Indian logistics trade publication published Nishith’s inputs on how e-commerce companies need tech to give their customers more convenience, personalization, and memorable post-purchase experiences.</p>
+          <p>Read the <a href="https://www.itln.in/e-commerce/e-commerce-magic-warehousing-tech-changes-and-more-1348188?infinitescroll=1">story here</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="100%">
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+        <mj-text align="center" text-transform="uppercase" font-size="27px" font-weight="800">
+          <h2 class="m-0" style="font-size:1em;">Infocus <span class="fw-400">- Our exclusive </span><span class="locus-purple">webinar series</span></h2>
+        </mj-text>
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text>
+          <p>The latest from Locus’ flagship webinar series, featuring industry experts sharing actionable insights on excellence in last-mile logistics.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image padding="10px" href="https://info.locus.sh/effective-third-party-deliveries-ecommerce-logistics-operations" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-01.jpg" alt="live-stream-01" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image padding="10px" href="https://info.locus.sh/demand-surge-and-fulfillment-challenges-in-holiday-seaso" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-02.jpg" alt="live-stream-02" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="100%">
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+        <mj-text align="center" text-transform="uppercase" font-size="27px" font-weight="800">
+          <h2 class="m-0" style="font-size:1em;"><span class="fw-400">Locus </span>around <span class="locus-blue">the world</span><img class="title-img" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/icon-world-location.png" alt="icon-world-locations"></h2>
+        </mj-text>
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text>
+          <p>We’re excited for the coming weeks as we expect to get a lot of face time with businesses and industry leaders in North America!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 55px">
+      <mj-column>
+        <mj-image css-class="img-fluid" padding="0px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-around-image-01.jpg" alt="section-around-image-01" />
+        <mj-text css-class="mbl-text-center" font-size="14px" line-height="1.5" padding="10px">
+          <p>First off, we’re eagerly looking forward one of the largest supply chain: the <span class="fw-600">Gartner Supply Chain Symposium</span> in Orlando, Florida, from <span class="fw-600">May 8-10</span>. Do visit us at <span class="fw-600">Booth #113</span></p>
+          <a class="arrow-link" href="https://locus.sh/gartner/#schedule-demo">Book a Meeting &#x3e;</a>
+        </mj-text>
+        <mj-spacer height="16px" />
+      </mj-column>
+      <mj-column>
+        <mj-image css-class="img-fluid" padding="0px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-around-image-02.jpg" alt="section-around-image-02" />
+        <mj-text css-class="mbl-text-center" font-size="14px" line-height="1.5" padding="10px">
+          <p>We are also attending the <span class="fw-600">Reuters Supply Chain</span> USA 2023 on <span class="fw-600">May 17-18</span></p>
+          <a class="arrow-link" href="https://events.reutersevents.com/supply-chain/usa">Know more &#x3e;</a>
+        </mj-text>
+        <mj-spacer height="16px" />
+      </mj-column>
+      <mj-column>
+        <mj-image css-class="img-fluid" padding="0px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-around-image-03.jpg" alt="section-around-image-03" />
+        <mj-text css-class="mbl-text-center" font-size="14px" line-height="1.5" padding="10px">
+          <p>For those in Mexico, <span class="fw-600">April 26 - 27</span>, We are attending the also have <span class="fw-600">The Logistics World - Summit & Expo</span>.</p>
+          <a class="arrow-link" href="https://thelogisticsworld.com/summit-expo/">Know more &#x3e;</a>
+        </mj-text>
+        <mj-spacer height="16px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="100%">
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+        <mj-text align="center" text-transform="uppercase" font-size="27px" font-weight="800">
+          <h2 class="m-0" style="font-size:1em;">Fuel <span class="fw-400">for </span><span class="locus-purple">thought</span><img class="title-img" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/icon-fuel.png" alt="icon-fuel"></h2>
+        </mj-text>
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 55px">
+      <mj-column>
+        <mj-image css-class="img-fluid" padding="0px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-thought-image-01.jpg" alt="section-thought-image-01" />
+        <mj-text css-class="mbl-text-center" font-size="14px" line-height="1.5" padding="10px">
+          <p>It might not look like it, but Logistics management is directly responsible for connecting the business to the customer, meaning scalable benefits like improved customer service and significant cost savings. Know more <a href="https://blog.locus.sh/role-of-logistics-management/">here</a>.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image css-class="img-fluid" padding="0px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-thought-image-02.jpg" alt="section-thought-image-02" />
+        <mj-text css-class="mbl-text-center" font-size="14px" line-height="1.5" padding="10px">
+          <p>Last-mile decisions without data are mere guesswork that can add to costs and kill your brand reputation. If your businesses are struggling from some of the problems mentioned <a href="https://blog.locus.sh/supply-chain-analytics-for-last-mile-decisions/">here</a>, it means your business needs advanced supply chain analytics.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image css-class="img-fluid" padding="0px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/section-thought-image-03.jpg" alt="section-thought-image-03" />
+        <mj-text css-class="mbl-text-center" font-size="14px" line-height="1.5" padding="10px">
+          <p>Right from hassle-free returns management to empowering drivers to make more deliveries in every shift, integrating automation into last-mile routing can be a game-changer for companies. <a href="https://blog.locus.sh/last-mile-automation/">click here</a> to know more.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 30px">
+      <mj-column width="100%">
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+        <mj-text>
+          <p class="m-0">That’s all for now!</p>
+          <p class="m-0">Till next time!</p>
+          <p class="m-0">If you’d like to catch up with an expert, we’re here for you.</p>
+        </mj-text>
+        <mj-button href="https://locus.sh/#schedule-demo">Schedule a Demo</mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 30px" css-class="footer-gradient">
+      <mj-group width="50%" css-class="mbl-text-center">
+        <mj-column width="100%">
+          <mj-text css-class="mbl-text-center">
+            <p class="fw-600">What do you think of this month’s newsletter?</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="32%">
+          <mj-image css-class="mbl-p-10" padding="10px 15px" href="mailto:marketing@locus.sh?subject=What%20do%20you%20think%20of%20this%20month's%20newsletter%3F%20%F0%9F%99%82" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/reaction-1.png" alt="" />
+        </mj-column>
+        <mj-column width="32%">
+          <mj-image css-class="mbl-p-10" padding="10px 15px" href="mailto:marketing@locus.sh?subject=What%20do%20you%20think%20of%20this%20month's%20newsletter%3F%20%F0%9F%98%90" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/reaction-2.png" alt="" />
+        </mj-column>
+        <mj-column width="32%">
+          <mj-image css-class="mbl-p-10" padding="10px 15px" href="mailto:marketing@locus.sh?subject=What%20do%20you%20think%20of%20this%20month's%20newsletter%3F%20%F0%9F%99%81" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/reaction-3.png" alt="" />
+        </mj-column>
+      </mj-group>
+      <mj-column width="50%" padding="0px 30px">
+        <mj-text font-size="12px" font-weight="500" css-class="mbl-text-center">
+          <p>{{ site_settings.company_name }},</p>
+          <p>{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004</p>
+        </mj-text>
+        <mj-social padding="0px 25px" icon-size="30px" border-radius="0px" align="center" css-class="align-left" mode="horizontal">
+          <mj-social-element href="https://twitter.com/Locus_Sh" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-tw.png" />
+          <mj-social-element href="https://www.instagram.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-in.png" />
+          <mj-social-element href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-yt.png" />
+          <mj-social-element href="https://www.linkedin.com/company/locus-sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-li.png" />
+          <mj-social-element href="https://www.facebook.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-fb.png" />
+        </mj-social>
+        <mj-text font-size="12px" font-weight="500" color="#14B5F0" css-class="mbl-text-center">
+          <p><a href="{{ unsubscribe_link }}">Unsubscribe</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

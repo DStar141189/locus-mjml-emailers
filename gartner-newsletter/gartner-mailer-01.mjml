@@ -1,0 +1,381 @@
+<mjml>
+  <mj-head>
+    <mj-title>Gartner Mailer</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900" />
+    <mj-attributes>
+      <mj-all color="#290A38" font-family="Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+      <mj-button align="left" background-color="#14B5F0" border-radius="0px" font-size="12px" font-weight="600" />
+    </mj-attributes>
+    <mj-style>
+      .locus-orange {
+        color: #FF6329;
+      }
+
+      .locus-blue {
+        color: #14B5F0;
+      }
+
+      .locus-purple {
+        color: #B066FF;
+      }
+
+      .locus-green {
+        color: #00D173;
+      }
+
+      .h1 div {
+        font-size: 58px !important;
+      }
+
+      .h2 div {
+        font-size: 40px !important;
+      }
+
+      .p div {
+        font-size: 15px !important;
+      }
+
+      .quote-sub-text div {
+        font-size: 18px !important;
+      }
+
+      .h3 div,
+      .btn a {
+        font-size: 24px !important;
+      }
+
+      .img-right table {
+        margin: 0 0 0 auto;
+      }
+
+      .m-0 {
+        margin: 0 !important;
+      }
+
+      .my-12 {
+        margin-top: 12px !important;
+        margin-bottom: 12px !important;
+      }
+
+      .mb-24 {
+        margin-bottom: 24px !important;
+      }
+
+      .purple-gradient-bg {
+        background: rgb(255, 255, 255);
+        background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(227, 240, 255, 1) 50%);
+        background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(227, 240, 255, 1) 50%);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(227, 240, 255, 1) 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e3f0ff", GradientType=1);
+      }
+
+      @media only screen and (min-width:480px) {
+        .desktop-vborder {
+          border-left: 1px solid #290A38;
+        }
+
+        .mbl-full-width table {
+          width: 320px;
+        }
+      }
+
+      @media only screen and (max-width:480px) {
+        .h1 div {
+          font-size: 48px !important;
+        }
+
+        .h2 div {
+          font-size: 32px !important;
+        }
+
+        .p div {
+          font-size: 13px !important;
+        }
+
+        .quote-sub-text div {
+          font-size: 15.6px !important;
+        }
+
+        .h3 div,
+        .btn a {
+          font-size: 20.8px !important;
+        }
+
+        .img-right table {
+          margin: 0 auto;
+        }
+
+        .mbl-full-width table {
+          width: 100%;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F5F5F5" width="800px">
+
+    <mj-section background-color="white" padding="25px" direction="rtl">
+      <mj-column vertical-align="middle">
+        <mj-image css-class="img-right" width="134px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/locus-logo-dark.png" alt="" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image align="left" width="220px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/title-image.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="5px 25px">
+      <mj-column vertical-align="middle">
+        <mj-text css-class="h1" line-height="1" text-transform="uppercase">
+          <h1 class="m-0" style="font-size:1em;"><span class="locus-blue" style="font-weight:800;">Logistics </span><span style="font-weight:800;">Runs on </span><span style="font-weight:400;">Locus</span></h1>
+        </mj-text>
+        <mj-divider border-color="#290A38" border-width="1px" />
+        <mj-text font-size="26px" line-height="36px" font-weight="600">
+          <p class="m-0">May <span class="locus-purple" style="font-weight:800;">8-10, 2023</span></p>
+          <p class="m-0">Orlando, <span class="locus-blue" style="font-weight:800;">FL</span></p>
+          <p class="m-0">Booth <span class="locus-orange" style="font-weight:800;">#113</span></p>
+        </mj-text>
+        <mj-divider border-color="#290A38" border-width="1px" />
+        <mj-button color="white" width="100%" css-class="btn" font-weight="800" line-height="32px" inner-padding="16px" href="https://locus.sh/gartner/">
+          Know more
+        </mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image width="324px" align="right" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/hero-image.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="25px">
+      <mj-column width="100%">
+        <mj-text css-class="p" font-weight="400" line-height="24px">
+          <p class="m-0 mb-24">We are excited to participate, yet again, in one of the world’s largest supply chain symposiums this year.</p>
+          <p class="m-0 mb-24">The supply chain industry is evolving like never before, and it is a very exciting time to see so many latest innovations driving impact to customer experience and companies’ bottom line. Visit us at our booth for some interesting conversations on transforming your last-mile logistics performance with strategies that include:</p>
+          <ul class="m-0" style="list-style-type:'–&nbsp;&nbsp;';padding-left:1em;">
+            <li>Scaling order fulfillment through a vast on-demand third party delivery network</li>
+            <li>Automated parcel sorting and pushing to accurately push parcels on the road in minimal time</li>
+            <li>Enabling customers to have more control over deliveries with preferred delivery windows and options</li>
+            <li>Being customers’ preferred choice with seamless reverse logistics optimized through route planning solutions</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper background-color="#FFE6E1" padding="25px 50px">
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text align="center" css-class="h2" line-height="1" text-transform="uppercase">
+            <h2 class="m-0" style="font-size:1em;font-weight:800;"><span style="font-weight:400;">Why Visit </span><span class="locus-orange">Our </span><span>Booth</span></h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="white" padding="0" css-class="my-12" direction="rtl">
+        <mj-column width="45%" vertical-align="middle">
+          <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/booth-image-01.png" alt="" />
+        </mj-column>
+        <mj-column width="55%" vertical-align="middle">
+          <mj-text font-size="16px" line-height="1.4" text-transform="uppercase">
+            <h3 class="m-0" style="font-size:1em;font-weight:800;">Exclusive product showcase</h3>
+          </mj-text>
+          <mj-text font-size="15px" font-weight="400" line-height="24px">
+            <p class="m-0">Get access to leading-edge solutions for last-mile growth in your specific industry and use cases.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="white" padding="0" css-class="my-12">
+        <mj-column width="45%" vertical-align="middle">
+          <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/booth-image-02.png" alt="" />
+        </mj-column>
+        <mj-column width="55%" vertical-align="middle">
+          <mj-text font-size="16px" line-height="1.4" text-transform="uppercase">
+            <h3 class="m-0" style="font-size:1em;font-weight:800;">Expert consultations</h3>
+          </mj-text>
+          <mj-text font-size="15px" font-weight="400" line-height="24px">
+            <p class="m-0">Secure personalized insights from specialists that are tailored to meet your business goals.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="white" padding="0" css-class="my-12" direction="rtl">
+        <mj-column width="45%" vertical-align="middle">
+          <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/booth-image-03.png" alt="" />
+        </mj-column>
+        <mj-column width="55%" vertical-align="middle">
+          <mj-text font-size="16px" line-height="1.4" text-transform="uppercase">
+            <h3 class="m-0" style="font-size:1em;font-weight:800;">Networking opportunities</h3>
+          </mj-text>
+          <mj-text font-size="15px" font-weight="400" line-height="24px">
+            <p class="m-0">Upgrade your last-mile excellence strategy by exchanging unique ideas from industry leaders and like-minded professionals.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-button align="center" color="white" font-weight="800" line-height="32px" inner-padding="16px" css-class="btn mbl-full-width" href="https://locus.sh/#schedule-demo">
+            Book a Meeting
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section css-class="purple-gradient-bg" padding="25px">
+      <mj-column vertical-align="middle">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/brands-hero-image.png" alt="" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text css-class="h2" line-height="1" text-transform="uppercase">
+          <h2 class="m-0 mb-24" style="font-size:1em;font-weight:800;"><span style="font-weight:400;">Trusted by </span>Leading <span class="locus-blue">Brands</span></h2>
+        </mj-text>
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/brand-logos-image.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper background-color="#EDE6FF" padding="25px 50px 50px">
+      <mj-section padding="0">
+        <mj-column width="55%" vertical-align="middle">
+          <mj-text padding="10px 0 25px" css-class="h2" line-height="1" text-transform="uppercase">
+            <h2 class="m-0" style="font-size:1em;font-weight:800;"><span style="font-weight:400;">Our </span><br>Gartner <br><span class="locus-purple">Recognitions</span></h2>
+          </mj-text>
+        </mj-column>
+        <mj-column width="45%" vertical-align="middle">
+          <mj-image padding="10px 0 25px" css-class="img-right" width="240px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/gartner-insights-image.png" alt="" />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#F9F4F1" padding="0" css-class="my-12">
+        <mj-raw>
+          <a href="https://www.gartner.com/reviews/market/vehicle-routing-and-scheduling-and-last-mile-technologies/vendor/locus/product/locus-dispatch-management-platform/review/view/4437004" target="_blank">
+        </mj-raw>
+        <mj-group width="100%" background-color="white">
+          <mj-column vertical-align="middle">
+            <mj-image align="left" width="188px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/stars-image.png" alt="" />
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-image align="right" width="40px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/arrow-image.png" alt="" />
+          </mj-column>
+        </mj-group>
+        <mj-column width="60%" vertical-align="middle">
+          <mj-text css-class="h3" line-height="1.25">
+            <h3 style="font-size:1em;font-weight:600;">“A Perfect Recipe For A Billion Dollar Startup.”</h3>
+          </mj-text>
+        </mj-column>
+        <mj-column width="39%" vertical-align="middle" css-class="desktop-vborder">
+          <mj-text padding="25px" css-class="quote-sub-text" line-height="1.33">
+            <p class="m-0" style="font-weight:600;">Director of Operations,</p>
+            <span style="font-weight:400;">Retail</span>
+          </mj-text>
+        </mj-column>
+        <mj-raw>
+          </a>
+        </mj-raw>
+      </mj-section>
+      <mj-section background-color="#F9F4F1" padding="0" css-class="my-12">
+        <mj-raw>
+          <a href="https://www.gartner.com/reviews/market/vehicle-routing-and-scheduling-and-last-mile-technologies/vendor/locus/product/locus-dispatch-management-platform/review/view/4485992" target="_blank">
+        </mj-raw>
+        <mj-group width="100%" background-color="white">
+          <mj-column vertical-align="middle">
+            <mj-image align="left" width="188px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/stars-image.png" alt="" />
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-image align="right" width="40px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/arrow-image.png" alt="" />
+          </mj-column>
+        </mj-group>
+        <mj-column width="60%" vertical-align="middle">
+          <mj-text css-class="h3" line-height="1.25">
+            <h3 style="font-size:1em;font-weight:600;">“Robust Product And Smart Implementation Team.”</h3>
+          </mj-text>
+        </mj-column>
+        <mj-column width="39%" vertical-align="middle" css-class="desktop-vborder">
+          <mj-text padding="25px" css-class="quote-sub-text" line-height="1.33">
+            <p class="m-0" style="font-weight:600;">Head of Engnineering,</p>
+            <span style="font-weight:400;">Healthcare and Biotech</span>
+          </mj-text>
+        </mj-column>
+        <mj-raw>
+          </a>
+        </mj-raw>
+      </mj-section>
+      <mj-section background-color="#F9F4F1" padding="0" css-class="my-12">
+        <mj-raw>
+          <a href="https://www.gartner.com/reviews/market/vehicle-routing-and-scheduling-and-last-mile-technologies/vendor/locus/product/locus-dispatch-management-platform/review/view/4473734" target="_blank">
+        </mj-raw>
+        <mj-group width="100%" background-color="white">
+          <mj-column vertical-align="middle">
+            <mj-image align="left" width="188px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/stars-image.png" alt="" />
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-image align="right" width="40px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/arrow-image.png" alt="" />
+          </mj-column>
+        </mj-group>
+        <mj-column width="60%" vertical-align="middle">
+          <mj-text css-class="h3" line-height="1.25">
+            <h3 style="font-size:1em;font-weight:600;">“Locus Association With Popular Food Delivery App - A Success Story!”</h3>
+          </mj-text>
+        </mj-column>
+        <mj-column width="39%" vertical-align="middle" css-class="desktop-vborder">
+          <mj-text padding="25px" css-class="quote-sub-text" line-height="1.33">
+            <p class="m-0" style="font-weight:600;">Chief Technical Officer,</p>
+            <span style="font-weight:400;">Retail</span>
+          </mj-text>
+        </mj-column>
+        <mj-raw>
+          </a>
+        </mj-raw>
+      </mj-section>
+      <mj-section background-color="#F9F4F1" padding="0" css-class="my-12">
+        <mj-raw>
+          <a href="https://www.gartner.com/reviews/market/vehicle-routing-and-scheduling-and-last-mile-technologies/vendor/locus/product/locus-dispatch-management-platform/review/view/4452476" target="_blank">
+        </mj-raw>
+        <mj-group width="100%" background-color="white">
+          <mj-column vertical-align="middle">
+            <mj-image align="left" width="188px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/stars-image.png" alt="" />
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-image align="right" width="40px" src="https://info.locus.sh/hubfs/Emailer%20images/gartner-newsletters/emailer-01/arrow-image.png" alt="" />
+          </mj-column>
+        </mj-group>
+        <mj-column width="60%" vertical-align="middle">
+          <mj-text css-class="h3" line-height="1.25">
+            <h3 style="font-size:1em;font-weight:600;">“Locus Is A Very Powerful Yet Simple And Intuitive Platform”</h3>
+          </mj-text>
+        </mj-column>
+        <mj-column width="39%" vertical-align="middle" css-class="desktop-vborder">
+          <mj-text padding="25px" css-class="quote-sub-text" line-height="1.33">
+            <p class="m-0" style="font-weight:600;">VP, Operations,</p>
+            <span style="font-weight:400;">Retail</span>
+          </mj-text>
+        </mj-column>
+        <mj-raw>
+          </a>
+        </mj-raw>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="white" padding="25px">
+      <mj-column width="100%">
+        <mj-text align="center" css-class="h2" line-height="1" text-transform="uppercase">
+          <h2 class="m-0" style="font-size:1em;font-weight:800;"><span style="font-weight:400;">We look </span>forward to <span class="locus-orange">meeting you</span> soon!</span></h2>
+        </mj-text>
+        <mj-button align="center" color="white" font-weight="800" line-height="1.4" inner-padding="16px" css-class="btn mbl-full-width" href="https://locus.sh/#schedule-demo">
+          Book a Meeting
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#290A38">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="11px" font-weight="500" color="white">
+          <p style="margin-bottom:6px;">{{ site_settings.company_name }},</p>
+          <p style="margin-top:6px;">{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004</p>
+        </mj-text>
+        <mj-social icon-size="30px" border-radius="0px" mode="horizontal">
+          <mj-social-element href="https://twitter.com/Locus_Sh" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-tw.png" />
+          <mj-social-element href="https://www.instagram.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-in.png" />
+          <mj-social-element href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-yt.png" />
+          <mj-social-element href="https://www.linkedin.com/company/locus-sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-li.png" />
+          <mj-social-element href="https://www.facebook.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-fb.png" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" font-weight="500" padding-bottom="32px">
+          <p style="margin:0 auto;"><a style="color:#14B5F0;" href="{{ unsubscribe_link }}">Unsubscribe</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
