@@ -94,6 +94,9 @@
     </mj-style>
   </mj-head>
   <mj-body width="800px" background-color="#eee">
+    <mj-raw>
+      <div id="preview_text" style="display:none;font-size:1px;color:{{background_color}};line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">{% text "preview_text" label="Preview Text", value="", no_wrapper=True %}</div>
+    </mj-raw>
     <mj-section background-color="#fff" padding="10px 30px">
       <mj-column width="50%" vertical-align="middle">
         <mj-image align="center" css-class="align-left" width="120px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/locus-logo-dark.png" alt="Locus Logo" />
@@ -188,10 +191,10 @@
         </mj-text>
       </mj-column>
       <mj-column width="50%">
-        <mj-image padding="10px" href="https://info.locus.sh/effective-third-party-deliveries-ecommerce-logistics-operations" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-01.jpg" alt="live-stream-01" />
+        <mj-image padding="10px" href="https://info.locus.sh/effective-third-party-deliveries-ecommerce-logistics-operations" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-01-new.jpg" alt="live-stream-01" />
       </mj-column>
       <mj-column width="50%">
-        <mj-image padding="10px" href="https://info.locus.sh/demand-surge-and-fulfillment-challenges-in-holiday-seaso" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-02.jpg" alt="live-stream-02" />
+        <mj-image padding="10px" href="https://info.locus.sh/demand-surge-and-fulfillment-challenges-in-holiday-seaso" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-02-new.jpg" alt="live-stream-02" />
       </mj-column>
     </mj-section>
     <mj-section background-color="white" padding="10px 30px">

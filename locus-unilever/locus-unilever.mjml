@@ -1,0 +1,388 @@
+<mjml>
+  <mj-head>
+    <mj-title>Locus and Unilever Newsletter</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+      <mj-text color="#290A38" line-height="1.3" />
+    </mj-attributes>
+    <mj-style>
+      .locus-orange {
+        color: #FF6329;
+      }
+
+      .locus-blue {
+        color: #14B5F0;
+      }
+
+      .locus-purple {
+        color: #B066FF;
+      }
+
+      .locus-green {
+        color: #00D173;
+      }
+
+      .m-0 {
+        margin: 0;
+      }
+
+      .fw-800 {
+        font-weight: 800;
+      }
+
+      .fw-700 {
+        font-weight: 700;
+      }
+
+      .fw-600 {
+        font-weight: 600;
+      }
+
+      .fw-400 {
+        font-weight: 400;
+      }
+
+      .d-mbl-img-none {
+        display: none !important;
+      }
+
+      .d-inline-block {
+        display: inline-block !important;
+      }
+
+      .b-border {
+        border-bottom: 0.5px solid #BB9A83;
+      }
+
+      .notification-gradient {
+        background: rgb(243, 238, 235);
+        background: linear-gradient(0deg, rgba(243, 238, 235, 1) 60%, rgba(225, 218, 210, 1) 60%);
+      }
+
+      @media only screen and (max-width: 479.98px) {
+        .d-img-none {
+          display: none !important;
+        }
+
+        .d-mbl-img-block {
+          display: block !important;
+        }
+
+        .pl-0 {
+          padding-left: 0 !important;
+        }
+
+        .mbl-text-center {
+          text-align: center;
+        }
+
+        .mbl-column-padding {
+          padding-top: 25px;
+          padding-bottom: 25px;
+        }
+
+        .mbl-column-padding-sm {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+
+        .d-inline-block {
+          display: block !important;
+        }
+
+        .mbl-center table {
+          margin: 0 auto;
+        }
+
+        .notification-gradient {
+          background: rgb(243, 238, 235);
+          background: linear-gradient(0deg, rgba(243, 238, 235, 1) 78%, rgba(225, 218, 210, 1) 78%);
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#eee" width="800px">
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-image width="168px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/locus-unilever-logo.png" alt="locus unilever logo" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#290A38" padding="0">
+      <mj-column css-class="mbl-column-padding" vertical-align="middle" width="50%">
+        <mj-text color="white" font-weight="700" text-transform="uppercase">
+          <h1 class="m-0 mbl-text-center" style="font-size:30px;">Locus <span class="locus-blue">X</span> Unilever <span class="fw-400">Newsletter</span></h1>
+        </mj-text>
+        <mj-text color="white">
+          <h3 class="m-0 fw-400 mbl-text-center">Jan-Mar ‘23</h3>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="pl-0" padding="0 0 0 25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/locus-unilever-hero.png" alt="locus-unilever-hero" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-spacer height="5px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FF6329" padding="0">
+      <mj-column css-class="mbl-column-padding" vertical-align="middle" width="50%">
+        <mj-text color="white" font-size="30px" font-weight="700" line-height="1" text-transform="uppercase">
+          <h2 style="font-size:1em;" class="m-0 mbl-text-center"><span class="fw-400">Retailer SMS </span>Notification</h2>
+        </mj-text>
+        <mj-text color="white">
+          <p class="m-0 mbl-text-center">Retailer recieves the order notification at different points of order lifecycle</p>
+        </mj-text>
+        <mj-text color="white">
+          <p class="m-0 mbl-text-center">SMS Notifications capability enables distributors to notify its end customers on the ETA and real-time updates giving visibility and enhancing the user experience. This visibility has helped in reducing cancellations and multiple re-attempts of the orders.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="pl-0" padding="0 0 0 25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/notification-image.png" alt="notification image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-image css-class="d-img-none" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/notification-infographics-01-desk.png" alt="infographics image" />
+        <mj-image css-class="d-mbl-img-none d-mbl-img-block" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/notification-infographics-01-mbl.png" alt="infographics image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="notification-gradient">
+      <mj-column vertical-align="middle" width="60%">
+        <mj-text font-size="20px">
+          <h3 class="mbl-text-center" style="font-size:1em;">Already powering in Philippines</h3>
+        </mj-text>
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/notification-infographics-02.png" alt="infographics image" />
+        <mj-spacer height="20px" />
+        <mj-text font-size="20px">
+          <h3 class="mbl-text-center" style="font-size:1em;">Launching soon in Vietnam & Thailand</h3>
+        </mj-text>
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/notification-infographics-03.png" alt="infographics image" />
+      </mj-column>
+      <mj-column vertical-align="middle" width="40%">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/notification-infographics-04.png" alt="infographics image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-spacer height="5px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#B066FF" padding="0">
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="pr-0" padding="0 0 0 0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/tech-stack-image.png" alt="tech stack image" />
+      </mj-column>
+      <mj-column css-class="mbl-column-padding" vertical-align="middle" width="50%">
+        <mj-text color="white" font-size="30px" font-weight="700" line-height="1" text-transform="uppercase">
+          <h2 style="font-size:1em;" class="m-0 mbl-text-center"><span class="fw-400">New </span>Teck Stack</h2>
+        </mj-text>
+        <mj-text color="white" font-size="17px" font-weight="600" font-style="italic">
+          <p class="m-0 mbl-text-center" style="font-size:1em;">Order Lifecycle Management</p>
+        </mj-text>
+        <mj-text color="white">
+          <p class="m-0 mbl-text-center">Locus’ order management automates the planning and processing of everyday orders with enhanced accuracy and efficiency, allowing you to save valuable time on logistics planning and schedule deliveries faster.</p>
+        </mj-text>
+        <mj-text color="white">
+          <p class="m-0 mbl-text-center">Additionally, it enables the accommodation of last-minute orders seamlessly, ensuring that all orders are processed in a timely manner.</p>
+        </mj-text>
+        <mj-text color="white">
+          <p class="m-0 mbl-text-center">Distributors are now empowered to handle unexpected situations efficiently at the order level by introducing re-attempts and re-schedules, ensuring excellent customer experience.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0EBE8">
+      <mj-column width="100%">
+        <mj-image css-class="d-img-none" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/tech-stack-infographics-01-desk.png" alt="infographics image" />
+        <mj-image css-class="d-mbl-img-none d-mbl-img-block" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/tech-stack-infographics-01-mbl.png" alt="infographics image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-spacer height="5px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#14B5F0" padding="0">
+      <mj-column css-class="mbl-column-padding" vertical-align="middle" width="50%">
+        <mj-text color="white" font-size="30px" font-weight="700" line-height="1" text-transform="uppercase">
+          <h2 style="font-size:1em;" class="m-0 mbl-text-center">OrderIQ Migration <span class="fw-400">& New Country Expansion - DDO</span></h2>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/migration-image.png" alt="migration image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-image css-class="d-img-none" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/migration-infographics-01-desk.png" alt="infographics image" />
+        <mj-image css-class="d-mbl-img-none d-mbl-img-block" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/migration-infographics-01-mbl.png" alt="infographics image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0EBE8">
+      <mj-column width="100%">
+        <mj-image css-class="d-img-none" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/performance-image.png" alt="infographics image" />
+        <mj-image css-class="d-mbl-img-none d-mbl-img-block" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/performance-image-mbl.png" alt="infographics image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-spacer height="5px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#B066FF" padding="0">
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="pr-0" padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/strategy-image.png" alt="strategy image" />
+      </mj-column>
+      <mj-column css-class="mbl-column-padding" vertical-align="middle" width="50%">
+        <mj-text color="white" font-size="30px" font-weight="700" line-height="1" text-transform="uppercase">
+          <h2 style="font-size:1em;" class="m-0 mbl-text-center"><span class="fw-400">Integrated </span>Contact Strategy</h2>
+        </mj-text>
+        <mj-text color="white">
+          <p class="m-0 mbl-text-center">Creating optimised integrated plan for Physical, Tele & Self visit. Also enhancing user experience with more visibility on visit planning as well as execution on ground.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column width="50%">
+        <mj-text font-size="20px" font-weight="700">
+          <h4 style="font-size:1em;" class="m-0 mbl-text-center">Integrated Contact Strategy Design</h4>
+        </mj-text>
+        <mj-text font-size="15px" font-weight="600">
+          <p style="padding-bottom:10px;display:inline-block;" class="b-border m-0">Design</p>
+        </mj-text>
+        <mj-text>
+          <ul class="m-0" style="padding-bottom:10px;padding-left:12px;list-style-type:'⋅ ';">
+            <li style="padding-bottom:.5em;">Configurable constraints</li>
+            <li style="padding-bottom:.5em;">Seamless master data ingestion</li>
+            <li style="padding-bottom:.5em;">Previous day churn is used to take output for the next day- making sure the outlet visit is not repeated</li>
+            <li style="padding-bottom:.5em;">Optimize outlet sequence with maximum coverage</li>
+          </ul>
+        </mj-text>
+        <mj-text font-size="15px" font-weight="600">
+          <p class="m-0">Generate an integrated contact plan within 3 hours</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/strategy-infographics-01.png" alt="infographics image" />
+        <mj-text>
+          <p class="fw-600">Combining all Demand Capture Platforms Locus will give you a right mix. We also make sure all custom constraints given to system are applied.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F3EEEB">
+      <mj-column width="100%">
+        <mj-text font-size="20px">
+          <h3 style="font-size:1em;" class="m-0 mbl-text-center">Our Latest Product Capabilities For Unilever</h3>
+        </mj-text>
+        <mj-spacer height="15px" />
+        <mj-text font-size="15px">
+          <h4 style="font-size:1em;padding-bottom:10px;" class="m-0 mbl-text-center d-inline-block b-border">Click & Collect</h4>
+        </mj-text>
+        <mj-text color="#8052BB" font-weight="600">
+          <p class="m-0 mbl-text-center">Click & Collect simplifies purchase experience by allowing customers to order online and pick the order from their preferred pickup points at their convenience.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image css-class="d-img-none" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/capabilities-image-01.png" alt="capabilities-image" />
+        <mj-image css-class="d-mbl-img-none d-mbl-img-block" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/capabilities-image-01-mbl.png" alt="capabilities-image" />
+        <mj-spacer height="30px" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="15px">
+          <h4 style="font-size:1em;padding-bottom:10px;" class="m-0 mbl-text-center d-inline-block b-border">Driver Performance & Earnings Visibility</h4>
+        </mj-text>
+        <mj-text color="#8052BB" font-weight="600">
+          <p class="m-0 mbl-text-center">Drivers now have easy access to visibility over performance and earnings for drivers through the Locus Companion App</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-image css-class="d-img-none" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/capabilities-image-02.png" alt="capabilities-image" />
+        <mj-image css-class="d-mbl-img-none d-mbl-img-block" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/capabilities-image-02-mbl.png" alt="capabilities-image" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0">
+      <mj-column>
+        <mj-spacer height="5px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#14B5F0" padding="0">
+      <mj-column vertical-align="middle" width="60%">
+        <mj-image css-class="pr-0" padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/news-image.png" alt="news image" />
+      </mj-column>
+      <mj-column css-class="mbl-column-padding" vertical-align="middle" width="40%">
+        <mj-text color="white" font-size="30px" font-weight="700" line-height="1" text-transform="uppercase">
+          <h2 style="font-size:1em;" class="m-0 mbl-text-center">Locus in the <span class="fw-400">news</span></h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0EBE8">
+      <mj-column css-class="mbl-column-padding-sm">
+        <mj-image padding="10px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/news-image-01.png" alt="news image" />
+        <mj-text padding="10px" font-weight="500">
+          <p class="m-0 mbl-text-center">Introducing ShipFlex: For Intelligent, Flexible, and Fast Deliveries</p>
+        </mj-text>
+        <mj-button css-class="mbl-center" font-weight="600" align="left" padding="10px" background-color="#14B5F0" border-radius="0" href="https://blog.locus.sh/shipflex-for-flexible-fast-deliveries/">
+          Explore now
+        </mj-button>
+      </mj-column>
+      <mj-column css-class="mbl-column-padding-sm">
+        <mj-image padding="10px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/news-image-02.png" alt="news image" />
+        <mj-text padding="10px" font-weight="500">
+          <p class="m-0 mbl-text-center">Silicon Valley Bank Crisis | Decoding The Impact On Startup Ecosystem | Big Deal | CNBC-TV18</p>
+        </mj-text>
+        <mj-button css-class="mbl-center" font-weight="600" align="left" padding="10px" background-color="#14B5F0" border-radius="0" href="https://www.cnbctv18.com/binge/silicon-valley-bank-crisi-DspWrNJAjzE.htm">
+          Watch It Now
+        </mj-button>
+      </mj-column>
+      <mj-column css-class="mbl-column-padding-sm">
+        <mj-image padding="10px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-unilever/news-image-03.png" alt="news image" />
+        <mj-text padding="10px" font-weight="500">
+          <p class="m-0 mbl-text-center">Locus Identified as a Representative Vendor in the 2022 Gartner® Market Guide for Last-Mile Delivery Technology</p>
+        </mj-text>
+        <mj-button css-class="mbl-center" font-weight="600" align="left" padding="10px" background-color="#14B5F0" border-radius="0" href="https://blog.locus.sh/locus-identified-in-gartner-for-last-mile-delivery-technology/">
+          Read About It
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#452966">
+      <mj-column width="100%">
+        <mj-image width="120px" align="center" padding-top="32px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/december-2022/footer-logo-light.png" alt="Locus Footer Logo" />
+        <mj-text align="center" font-size="11px" font-weight="500" color="white">
+          <p style="margin-bottom:6px;">Mara Labs Inc,</p>
+          <p style="margin-top:6px;">Suite 217, 691 S Milpitas, Milpitas, California 95035, United States, +1 (866) 373 9004</p>
+        </mj-text>
+        <mj-social icon-size="30px" border-radius="0px" mode="horizontal">
+          <mj-social-element href="https://twitter.com/Locus_Sh" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/march-2023/tw-icon.png" />
+          <mj-social-element href="https://www.instagram.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/march-2023/in-icon.png" />
+          <mj-social-element href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/march-2023/yt-icon.png" />
+          <mj-social-element href="https://www.linkedin.com/company/locus-sh/" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/march-2023/ln-icon.png" />
+          <mj-social-element href="https://www.facebook.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched/march-2023/fb-icon.png" />
+        </mj-social>
+        <mj-text align="center" font-size="11px" font-weight="500" padding-bottom="32px">
+          <p style="margin:0 auto;"><a style="color:#14B5F0;" href="{{ unsubscribe_link }}">Unsubscribe</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
