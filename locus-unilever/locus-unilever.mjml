@@ -6,7 +6,7 @@
       <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
       <mj-text color="#290A38" line-height="1.3" />
     </mj-attributes>
-    <mj-style>
+    <mj-style inline="inline">
       .locus-orange {
         color: #FF6329;
       }
