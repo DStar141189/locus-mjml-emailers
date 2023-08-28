@@ -1,0 +1,160 @@
+<mjml>
+  <mj-head>
+    <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />{% endif %}
+    </mj-raw>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .mw-70 div {
+        max-width: 70% !important;
+      }
+
+      .unsubscribe-link div a {
+        color: #14B4EF !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media (max-width:480px) {
+        .align-center {
+          text-align: center;
+        }
+
+        .mbl-center table {
+          margin: 0 auto !important;
+        }
+
+        .mbl-text-center div {
+          text-align: center !important;
+        }
+
+        .mbl-fs-10 div {
+          font-size: 10px !important;
+        }
+
+        .mbl-fs-14 div {
+          font-size: 14px !important;
+        }
+
+        .mbl-fs-16 div {
+          font-size: 16px !important;
+        }
+
+        .mbl-fs-24 div {
+          font-size: 24px !important;
+        }
+
+        .mbl-lh-14 div {
+          line-height: 14px !important;
+        }
+
+        .mbl-lh-18 div {
+          line-height: 18px !important;
+        }
+
+        .mbl-lh-22 div {
+          line-height: 22px !important;
+        }
+
+        .mbl-lh-32 div {
+          line-height: 32px !important;
+        }
+
+        .mbl-mw-100 div {
+          max-width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#EBE8EB">
+    <mj-raw>
+      <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
+    </mj-raw>
+    <mj-section background-color="#290A38">
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="mbl-center" padding-top="5px" padding-bottom="5px" width="100px" align="left" src="{{module.header_logos.left_logo.src}}" alt="{{module.header_logos.left_logo.alt}}" />
+      </mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="mbl-center" padding-top="5px" padding-bottom="5px" width="80px" align="right" src="{{module.header_logos.right_logo.src}}" alt="{{module.header_logos.right_logo.alt}}" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#290A38">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center mbl-fs-10 mbl-lh-14" color="#FFC366" font-size="12px" font-weight="700" line-height="16px" text-transform="uppercase">
+          {{module.preheading_text}}
+        </mj-text>
+        <mj-text css-class="mbl-text-center mbl-fs-24 mbl-lh-32" color="white" font-size="32px" font-weight="400" line-height="40px">
+          {{module.heading_text}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#AF66FF" padding="0">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center mbl-fs-14 mbl-lh-18" color="white" font-size="16px" font-weight="700" line-height="20px">
+          {{module.highlight_text}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#290A38">
+      <mj-column width="100%">
+        <mj-button css-class="mbl-center" align="left" background-color="#14B4EF" border-radius="0" color="white" font-size="14px" font-weight="700" inner-padding="10px 30px" line-height="20px" href="{{module.call_to_action_button.button_link.url.href}}">
+          {{module.call_to_action_button.button_text}}
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column width="100%">
+        <mj-image padding="0" src="{{module.hero_image.src}}" alt="{{module.hero_image.alt}}" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-fs-14 mbl-lh-22" font-size="16px" line-height="24px">
+          {{module.section_top_content}}
+        </mj-text>
+        <mj-button align="center" background-color="#14B4EF" border-radius="0" color="white" font-size="14px" font-weight="700" inner-padding="10px 30px" line-height="20px" href="{{module.content_cta.button_link.url.href}}">
+          {{module.content_cta.button_text}}
+        </mj-button>
+        <mj-text css-class="mbl-fs-14 mbl-lh-22" font-size="16px" line-height="24px">
+          {{module.section_bottom_content}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-repeat="no-repeat" background-size="cover" background-position="center" background-url="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/growth-delivered-bg.png">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center mbl-fs-16 mbl-lh-22" color="white" font-size="18px" font-weight="700" line-height="24px">
+          Growth, Delivered.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1" padding="30px 0">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image css-class="mbl-center" width="78px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/locus-logo-dark.png" alt="locus logo dark" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-social css-class="align-center" align="right" icon-size="28px" mode="horizontal">
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-twitter.png" name="twitter-noshare" href="https://twitter.com/Locus_Sh"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-instagram.png" name="instagram-noshare" href="https://www.instagram.com/locus.sh/"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-youtube.png" name="youtube-noshare" href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-linkedin.png" name="linkedin-noshare" href="https://www.linkedin.com/company/locus-sh/"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          {{ site_settings.company_name }},&nbsp;{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="unsubscribe-link mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          <a href="{{ unsubscribe_link }}">Unsubscribe</a>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

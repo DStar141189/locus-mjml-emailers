@@ -1,0 +1,276 @@
+<mjml>
+  <mj-head>
+    <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />
+      {% endif %}
+    </mj-raw>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+      <mj-text color="#290A38" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2,
+      p,
+      ul,
+      ol,
+      li,
+      span {
+        font-size: 1em;
+        margin: 0;
+      }
+
+      .list {
+        list-style-type: none;
+        padding-left: 0;
+        padding-top: 1em;
+      }
+
+      .fw-400 {
+        font-weight: 400;
+      }
+
+      .mbl-d-inbk p,
+      .mbl-d-inbk img {
+        display: inline-block !important;
+        vertical-align: middle;
+      }
+
+      .w-auto td {
+        width: auto !important;
+      }
+
+      .mw-70 div {
+        max-width: 70% !important;
+      }
+
+			.mw-250px img {
+				max-width: 250px !important;
+				margin: 0 auto;
+			}
+
+      .mw-78 div {
+        max-width: 78% !important;
+      }
+
+      .mw-80 div {
+        max-width: 80% !important;
+      }
+
+      .mw-85 div {
+        max-width: 85% !important;
+      }
+
+      .locus-border {
+        display: block;
+        background: linear-gradient(90deg, rgba(20, 181, 240, 1) 25%, rgba(0, 209, 115, 1) 25%, rgba(0, 209, 115, 1) 50%, rgba(176, 102, 255, 1) 50%, rgba(176, 102, 255, 1) 75%, rgba(255, 99, 41, 1) 75%);
+      }
+
+      .unsubscribe-link div a {
+        color: #14B4EF !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media (max-width:480px) {
+        .align-center {
+          text-align: center;
+        }
+
+        .mbl-fs-24 div {
+          font-size: 24px !important;
+        }
+
+        .mbl-center table {
+          margin: 0 auto !important;
+        }
+
+        .mbl-text-center div {
+          text-align: center !important;
+        }
+
+        .mbl-mw-100 div {
+          max-width: 100% !important;
+        }
+
+        .mbl-pt-25 {
+          padding-top: 25px !important;
+        }
+
+        .mbl-px-25 {
+          padding-left: 25px !important;
+          padding-right: 25px !important;
+        }
+
+        .mbl-pt-30 {
+          padding-top: 30px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f6f6f6">
+    <mj-raw>
+      <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
+    </mj-raw>
+    <mj-section background-color="#290A38">
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="mbl-center" align="left" width="150px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/just-dispatched-logo.png" alt="just dispatched logo" />
+      </mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="mbl-center" align="right" width="80px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/locus-logo.png" alt="Locus logo" href="https://locus.sh" />
+      </mj-column>
+      <mj-column padding="10px 25px" width="100%">
+        <mj-raw>
+          <span style="padding: 0.75px 0;" class="locus-border"></span>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0" background-color="#290A38" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/cubes-hero-bg.png">
+      <mj-column width="86%">
+        <mj-text align="center" color="white" font-size="30px" line-height="40px">
+          <h1><span style="color:#B066FF;">Beyond the Last Mile:</span> Updates to Optimize Fulfillment Across All Miles</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0" background-color="#290A38">
+      <mj-column width="100%">
+        <mj-text align="center" color="white" font-size="14px" line-height="20px">
+          <p>We are thrilled to roll out fresh updates aimed at optimizing fulfillment across all legs - going beyond the last mile to first and mid mile, with centralized visibility on outsourced shipments and fleet operations. Poised for scaling? We’ve got you covered. Read on!</p>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" background-repeat="no-repeat" background-size="100%" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/gradient-bg-01.png">
+      <mj-column width="100%">
+        <mj-spacer height="20px" />
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-pt-30" align="center" font-size="24px" line-height="30px">
+          <h2>Trade Time-Under-Roof For Active Miles On Road</h2>
+        </mj-text>
+        <mj-text css-class="mw-80 mbl-mw-100" align="center" font-size="14px" line-height="20px">
+          <p>Reduce time-under-roof with robust hub operation workflows for swift scanning, rule-based sorting and intelligent pick-listing, to fuel faster dispatches.</p>
+        </mj-text>
+        <mj-image css-class="mbl-px-25" padding="10px 50px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/section-image-01.png" alt="section image 01" />
+        <mj-button color="#14B5F0" background-color="transparent" border="1px solid #14B5F0" border-radius="0" font-size="18px" font-weight="600" line-height="24px" href="https://locus.showpad.com/share/ZzTWVJQN05xzFskQfyowB">
+          Reduce Time-Under-Roof
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" background-repeat="no-repeat" background-size="100%" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/gradient-bg-02.png">
+      <mj-column width="100%">
+        <mj-spacer height="20px" />
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-pt-30" align="center" font-size="24px" line-height="30px">
+          <h2>Streamline Payment and Asset Reconciliation at Hubs</h2>
+        </mj-text>
+        <mj-text css-class="mw-80 mbl-mw-100" align="center" font-size="14px" line-height="20px">
+          <p>Leverage custom workflows to keep track of undelivered orders, validate PODs and ensure swift reconciliation of assets and payments after each trip.</p>
+        </mj-text>
+        <mj-image css-class="mbl-px-25" padding="10px 50px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/section-image-02.png" alt="section image 02" />
+        <mj-button color="#14B5F0" background-color="transparent" border="1px solid #14B5F0" border-radius="0" font-size="18px" font-weight="600" line-height="24px" href="https://locus.showpad.com/share/91Ra1fOkCyT1IIDFX5oSx">
+          Explore End-of-Trip Reconciliation
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" background-repeat="no-repeat" background-size="100%" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/gradient-bg-03.png">
+      <mj-column width="100%">
+        <mj-spacer height="20px" />
+        <mj-text css-class="mw-78 mbl-mw-100 mbl-pt-30" align="center" font-size="24px" line-height="30px">
+          <h2>Empower Drivers to Stay Engaged on The Road With Haptic Alerts</h2>
+        </mj-text>
+        <mj-text css-class="mw-80 mbl-mw-100" align="center" font-size="14px" line-height="20px">
+          <p>Ensure drivers don’t miss out on critical alerts with unique haptic patterns and custom sounds for task alerts, scan statuses, and new assignments.</p>
+        </mj-text>
+        <mj-image css-class="mw-250px mbl-px-25" padding="10px 50px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/section-image-03.gif" alt="section image 03" />
+        <mj-button color="#14B5F0" background-color="transparent" border="1px solid #14B5F0" border-radius="0" font-size="18px" font-weight="600" line-height="24px" href="https://lotr.locus.sh/">
+          Try Driver App Now!
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" background-repeat="no-repeat" background-size="100%" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/gradient-bg-04.png">
+      <mj-column width="100%">
+        <mj-spacer height="20px" />
+        <mj-text css-class="mw-78 mbl-mw-100 mbl-pt-30" align="center" font-size="24px" line-height="30px">
+          <h2>Manage Transporter Operations at Scale with Unified Control</h2>
+        </mj-text>
+        <mj-text css-class="mw-80 mbl-mw-100" align="center" font-size="14px" line-height="20px">
+          <p>Leverage end-to-end visibility into outsourced fulfilments, optimize transporter operations for cost-efficiency and drive frictionless payment reconciliations - from a unified platform.</p>
+        </mj-text>
+        <mj-image css-class="mbl-px-25" padding="10px 50px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/section-image-04.png" alt="section image 04" />
+        <mj-button color="#14B5F0" background-color="transparent" border="1px solid #14B5F0" border-radius="0" font-size="18px" font-weight="600" line-height="24px" href="https://locus.showpad.com/share/ofPnumEeCGOBpk47YRInV">
+          Know More
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" background-repeat="no-repeat" background-size="100%" background-url="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/gradient-bg-05.png">
+      <mj-column width="100%">
+        <mj-spacer height="20px" />
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-pt-30" align="center" font-size="24px" line-height="30px">
+          <h2>Stay ahead of Unplanned Delays with Intelligent Trip Re-optimization</h2>
+        </mj-text>
+        <mj-text css-class="mw-80 mbl-mw-100" align="center" font-size="14px" line-height="20px">
+          <p>Leverage auto-calculated transaction duration for each delivery and dynamically set priority status based on promised delivery dates to optimize trip planning and eliminate SLA breaches.</p>
+        </mj-text>
+        <mj-image css-class="mbl-px-25" padding="10px 50px" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/section-image-05.png" alt="section image 05" />
+        <mj-button color="#14B5F0" background-color="transparent" border="1px solid #14B5F0" border-radius="0" font-size="18px" font-weight="600" line-height="24px" href="https://locus.showpad.com/share/ZTNVmvaJJpLkQsH5gReWk">
+          Read More
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-raw>
+        <span style="padding: 1.25px 0;" class="locus-border"></span>
+      </mj-raw>
+    </mj-section>
+    <mj-section padding="0" background-color="#290A38">
+      <mj-column vertical-align="middle" width="63%">
+        <mj-text css-class="mbl-pt-30" color="white" font-size="24px" font-weight="600" line-height="32px">
+          <p>Transparent Fulfillments. Leaner Operations. Optimized for Profitability.</p>
+        </mj-text>
+        <mj-spacer height="5px" />
+        <mj-button align="left" background-color="transparent" border="1px solid #14B5F0" border-radius="0" color="#14B5F0" font-size="18px" font-weight="600" line-height="24px" href="https://locus.sh/schedule-demo/">
+          Schedule a Demo Now!
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+      <mj-column vertical-align="middle" width="37%">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/just-dispatched-q3-2023/footer-hero.png" alt="Footer hero image" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-repeat="no-repeat" background-size="cover" background-position="center" background-url="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/growth-delivered-bg.png">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center mbl-fs-16 mbl-lh-22" color="white" font-size="18px" font-weight="700" line-height="24px">
+          Growth, Delivered.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1" padding="30px 0">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image css-class="mbl-center" width="78px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/locus-logo-dark.png" alt="locus logo dark" href="https://locus.sh" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-social css-class="align-center" align="right" icon-size="28px" mode="horizontal">
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-twitter.png" name="twitter-noshare" href="https://twitter.com/Locus_Sh"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-instagram.png" name="instagram-noshare" href="https://www.instagram.com/locus.sh/"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-youtube.png" name="youtube-noshare" href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-linkedin.png" name="linkedin-noshare" href="https://www.linkedin.com/company/locus-sh/"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          {{ site_settings.company_name }},&nbsp;{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="unsubscribe-link mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          <a href="{{ unsubscribe_link }}">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -121,12 +121,9 @@
         </mj-text>
         <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/spotlight-image.jpg" alt="Banner image" />
         <mj-text>
-          <p>Rest assured, we’re eager to share our learnings in an upcoming webinar.</p>
+          <p>You can get our learnings from our blog here. (The big takeaway: the future of supply productivity rests in people-centric approaches)</p>
         </mj-text>
-        <mj-button href="">Register Now</mj-button>
-        <mj-text>
-          <p>Meanwhile, you can get a peak of what we’ve picked up on our blog here. (Hint: the future of supply productivity rests in people-centric approaches)</p>
-        </mj-text>
+        <mj-button href="https://blog.locus.sh/gartner-supply-chain-symposium-xpo-highlights/">Read More</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="white" padding="10px 30px">
@@ -140,7 +137,7 @@
     </mj-section>
     <mj-section background-color="white" padding="10px 30px">
       <mj-column width="40%" vertical-align="middle">
-        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/leaders-word-image-01.jpg" alt="section-leaders-image-01" />
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/leaders-word-image-01-v2.jpg" alt="section-leaders-image-01" />
       </mj-column>
       <mj-column width="60%" vertical-align="middle">
         <mj-text line-height="1.25">
@@ -152,7 +149,7 @@
     </mj-section>
     <mj-section background-color="white" padding="10px 30px" direction="rtl">
       <mj-column width="40%" vertical-align="middle">
-        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/leaders-word-image-02.jpg" alt="section-leaders-image-02" />
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/leaders-word-image-02-v2.jpg" alt="section-leaders-image-02" />
       </mj-column>
       <mj-column width="60%" vertical-align="middle">
         <mj-text line-height="1.25">
@@ -164,7 +161,7 @@
     </mj-section>
     <mj-section background-color="white" padding="10px 30px">
       <mj-column width="40%" vertical-align="middle">
-        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/leaders-word-image-03.jpg" alt="section-leaders-image-03" />
+        <mj-image src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/leaders-word-image-03-v2.jpg" alt="section-leaders-image-03" />
       </mj-column>
       <mj-column width="60%" vertical-align="middle">
         <mj-text line-height="1.25">
@@ -188,10 +185,10 @@
         </mj-text>
       </mj-column>
       <mj-column width="50%">
-        <mj-image padding="10px" href="https://info.locus.sh/effective-third-party-deliveries-ecommerce-logistics-operations" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-01-new.jpg" alt="live-stream-01" />
+        <mj-image padding="10px" href="https://info.locus.sh/effective-third-party-deliveries-ecommerce-logistics-operations" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/live-stream-01-v2.jpg" alt="live-stream-01" />
       </mj-column>
       <mj-column width="50%">
-        <mj-image padding="10px" href="https://info.locus.sh/demand-surge-and-fulfillment-challenges-in-holiday-seaso" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/live-stream-02-new.jpg" alt="live-stream-02" />
+        <mj-image padding="10px" href="https://info.locus.sh/demand-surge-and-fulfillment-challenges-in-holiday-seaso" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/may2023/live-stream-02-v2.jpg" alt="live-stream-02" />
       </mj-column>
     </mj-section>
     <mj-section background-color="white" padding="10px 30px">
@@ -244,10 +241,10 @@
     <mj-section background-color="white" padding="10px 30px">
       <mj-column width="100%">
         <mj-divider border-color="#290A38" border-width="0.5px" />
-        <mj-text>
-          <p class="m-0">That’s all for now!</p>
-          <p class="m-0">Till next time!</p>
-          <p class="m-0">If you’d like to catch up with an expert, we’re here for you.</p>
+        <mj-text padding-bottom="30px">
+          <p>That’s all for now, folks.</p>
+          <p class="m-0">Until next time!</p>
+          <p>Catch up with an expert from Locus to understand how you can convert your last mile to a revenue generator.</p>
         </mj-text>
         <mj-button href="https://locus.sh/schedule-demo/">Schedule a Demo</mj-button>
         <mj-spacer height="20px" />

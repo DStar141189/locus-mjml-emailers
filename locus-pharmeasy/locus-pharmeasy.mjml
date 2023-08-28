@@ -1,0 +1,384 @@
+<mjml>
+  <mj-head>
+    <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />
+      {% endif %}
+    </mj-raw>
+    <!-- <mj-breakpoint width="576px" /> -->
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+      <mj-text color="#290A38" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2,
+      p,
+      ul,
+      ol,
+      li,
+      span {
+        font-size: 1em;
+        margin: 0;
+      }
+
+      .list {
+        list-style-type: none;
+        padding-left: 0;
+        padding-top: 1em;
+      }
+
+      .fw-400 {
+        font-weight: 400;
+      }
+
+      .mbl-d-inbk p,
+      .mbl-d-inbk img {
+        display: inline-block !important;
+        vertical-align: middle;
+      }
+
+      .w-auto td {
+        width: auto !important;
+      }
+
+      .mw-70 div {
+        max-width: 70% !important;
+      }
+
+      .mw-85 div {
+        max-width: 85% !important;
+      }
+
+      .unsubscribe-link div a {
+        color: #14B4EF !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media (max-width:480px) {
+        .align-center {
+          text-align: center;
+        }
+
+        .mbl-fs-24 div {
+          font-size: 24px !important;
+        }
+
+        .mbl-center table {
+          margin: 0 auto !important;
+        }
+
+        .mbl-text-center div {
+          text-align: center !important;
+        }
+
+        .mbl-mw-100 div {
+          max-width: 100% !important;
+        }
+
+        .mbl-pt-25 {
+          padding-top: 25px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f6f6f6">
+    <mj-raw>
+      <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
+    </mj-raw>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-image width="100px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/apr2023/locus-logo-dark.png" alt="Locus Logo" href="https://locus.sh" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#14B5F0">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-fs-24" align="center" color="white" font-size="30px" font-weight="700" line-height="40px">
+          <h1>95% On-time, Same-day <br><span class="fw-400">E-pharma Delivery</span></h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="0">
+      <mj-column width="100%">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/hero-banner.png" alt="Hero Banner" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-text padding="15px 30px" font-size="15px" line-height="24px">
+          <p>One of India’s leading e-pharmacy platforms wanted to offer world-class purchase experiences. For time-sensitive pharmacy products, efficient same day or two-hour deliveries was a must.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center" padding="15px 30px" font-size="20px" font-weight="600" line-height="30px">
+          <h2>What could prompt consumers to choose Same-day Delivery more often?</h2>
+        </mj-text>
+        <mj-text padding="15px 30px" padding-top="0" font-size="15px" line-height="24px">
+          <p>Six out of ten customers would choode same-day more often if they had urgent needs or delivery was cheaper. </p>
+        </mj-text>
+        <mj-image padding="15px 30px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/graph-image-01.png" alt="Graph Image" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="#14B5F0">
+      <mj-column width="100%">
+        <mj-text align="center" padding="15px 30px" color="white" font-size="20px" font-weight="600" line-height="30px">
+          <h2>What keeps e-pharmacy customers happy?</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="white">
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/low-shipping-fee.png" alt="" />
+      </mj-column>
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/choices-in-fulfillment-options.png" alt="" />
+      </mj-column>
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/time-definite-deliveries.png" alt="" />
+      </mj-column>
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/on-demand-fulfillment.png" alt="" />
+      </mj-column>
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/accurate-delivery-forecasts.png" alt="" />
+      </mj-column>
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/easy-modifications-returns.png" alt="" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="15px 32px" font-size="15px" line-height="24px">
+          <p>On the operations end, they also needed:</p>
+          <ul class="list">
+            <li>- Optimize Vehicle Utilization</li>
+            <li>- Improve Service Level Agreements</li>
+            <li>- Limit access to sensitive data</li>
+          </ul>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="#B066FF">
+      <mj-column width="100%">
+        <mj-text align="center" padding="15px 30px" color="white" font-size="20px" font-weight="600" line-height="30px">
+          <h2>How We Compare</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="white">
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/compare-image-01.png" alt="compare image 01" />
+      </mj-column>
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/compare-image-02.png" alt="compare image 02" />
+      </mj-column>
+      <mj-column width="30%" padding="1.5px">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/compare-image-03.png" alt="compare image 03" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FF6329">
+      <mj-column width="85%">
+        <mj-image align="left" padding="0 30px" width="30px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/left-double-quotation-mark-white.png" alt="left-double-quotation-mark" />
+        <mj-text align="center" color="white" font-size="15px" line-height="24px" padding="15px 30px">
+          <p>We started using Locus services a few months ago and found it useful to manage our field operations. It helped us in creating transparency and managing our logistics field force better. The Locus team was also very approachable and willing to help with our unique needs.</p>
+        </mj-text>
+        <mj-image align="right" padding="0 30px" width="30px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/right-double-quotation-mark-white.png" alt="right-double-quotation-mark" />
+        <mj-text padding-top="0" align="center" color="white" font-size="15px" font-weight="700" line-height="24px">
+          <p>Prashant Tandon</p>
+          <p class="fw-400">CEO & Founder, Tata 1mg</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="#14B5F0">
+      <mj-column width="100%">
+        <mj-text align="center" padding="15px 30px" color="white" font-size="20px" font-weight="600" line-height="30px">
+          <h2>Customer Reviews</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="0px 30px">
+      <mj-column width="50%" inner-background-color="#F6EFFF" padding="1.5px">
+        <mj-image align="left" width="30px" padding="25px 25px 0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/left-double-quotation-mark-orange.png" alt="left-double-quotation-mark" />
+        <mj-text font-size="12px" line-height="18px">
+          <p>Never delivers the order on time and never updates on the order. It's been one week since I placed my order, no updates as of now.</p>
+        </mj-text>
+        <mj-image align="right" width="30px" padding="0 25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/right-double-quotation-mark-orange.png" alt="right-double-quotation-mark" />
+        <mj-image align="left" width="36px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/icons8-sad-96.png" alt="sad emoji" />
+        <mj-text padding-top="0" padding-bottom="25px" font-size="14px" font-style="italic" font-weight="500" line-height="18px">
+          <p>- Competitor 1</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" inner-background-color="#ECF9FF" padding="1.5px">
+        <mj-image align="left" width="30px" padding="25px 25px 0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/left-double-quotation-mark-orange.png" alt="left-double-quotation-mark" />
+        <mj-text font-size="12px" line-height="18px">
+          <p>Says delivers in 24-48 hours but its 10 days haven’t recieved my order...&nbsp;<br>&nbsp;<br>&nbsp;</p>
+        </mj-text>
+        <mj-image align="right" width="30px" padding="0 25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/right-double-quotation-mark-orange.png" alt="right-double-quotation-mark" />
+        <mj-image align="left" width="36px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/icons8-sad-96.png" alt="sad emoji" />
+        <mj-text padding-top="0" padding-bottom="25px" font-size="14px" font-style="italic" font-weight="500" line-height="18px">
+          <p>- Competitor 2</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" inner-background-color="#FFEFEA" padding="1.5px">
+        <mj-image align="left" width="30px" padding="25px 25px 0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/left-double-quotation-mark-orange.png" alt="left-double-quotation-mark" />
+        <mj-text font-size="12px" line-height="18px">
+          <p>I used the online portal for ordering medicines without any hassle. From searching for the medicine to placing an order, everything was a breeze... <b>I received my order on the same day.</b></p>
+        </mj-text>
+        <mj-image align="right" width="30px" padding="0 25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/right-double-quotation-mark-orange.png" alt="right-double-quotation-mark" />
+        <mj-image align="left" width="36px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/icons8-happy-96.png" alt="happy emoji" />
+        <mj-text css-class="mbl-d-inbk" padding-top="0" padding-bottom="25px" font-size="14px" font-style="italic" font-weight="500" line-height="18px">
+          <p>- Locus e-pharmacy Client &nbsp;</p><img width="70px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/tata-1mg-logo.png" alt="tata 1mg logo">
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-text padding="15px 30px" font-size="15px" line-height="24px">
+          <p>With the end-to-end Customer Experience and Dispatch Management Platform, our client was able to achieve 95% on-time delivery Service Levels and provide millions of consumers memorable purchase experiences.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center" padding="15px 30px" font-size="20px" font-weight="600" line-height="30px">
+          <h2>Customer Experience & Dispatch Management Platform for Pharmacy Delivery</h2>
+        </mj-text>
+        <mj-image padding="15px 30px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/pharmacy-delivery-image.png" alt="Pharmacy Delivery Image" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FF6329">
+      <mj-column width="85%">
+        <mj-image align="left" padding="0 30px" width="30px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/left-double-quotation-mark-white.png" alt="left-double-quotation-mark" />
+        <mj-text align="center" color="white" font-size="24px" font-weight="700" line-height="30px">
+          <h2>One in Five Consumers Willing to pay slightly extra in shipping fees for same-day delivery</h2>
+        </mj-text>
+        <mj-image align="right" padding="0 30px" width="30px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/right-double-quotation-mark-white.png" alt="right-double-quotation-mark" />
+        <mj-text align="center" color="white" font-size="15px" font-style="italic" font-weight="500" line-height="20px">
+          <p>Source: <a style="color:white;" href="https://www.mckinsey.com/industries/retail/our-insights/retails-need-for-speed-unlocking-value-in-omnichannel-delivery" target="_blank">McKinsey</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-text font-size="20px" font-weight="700" line-height="30px">
+          <h2>The Opportunity: <br>Delivery Linked Checkout</h2>
+        </mj-text>
+        <mj-text font-size="15px" line-height="24px">
+          <p>Deliver orders on customer-preferred timelines with maintaining optimal capacity & service efficiencies</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text padding-bottom="0" font-size="15px" font-weight="700" line-height="20px">
+          <p>Flexible order fulfilment</p>
+        </mj-text>
+        <mj-text padding-bottom="0" font-size="12px" line-height="18px">
+          <p>Automatically account for customer delivery time preferences</p>
+        </mj-text>
+        <mj-divider border-color="#BB9A83" border-width="0.5px" />
+        <mj-text padding-top="0" padding-bottom="0" font-size="15px" font-weight="700" line-height="20px">
+          <p>On-Demand Order Fulfillment</p>
+        </mj-text>
+        <mj-text padding-bottom="0" font-size="12px" line-height="18px">
+          <p>Allocate & route on-demand orders to best-suited drivers</p>
+        </mj-text>
+        <mj-divider border-color="#BB9A83" border-width="0.5px" />
+        <mj-text padding-top="0" padding-bottom="0" font-size="15px" font-weight="700" line-height="20px">
+          <p>Premium slots/ Sustainable slots</p>
+        </mj-text>
+        <mj-text padding-bottom="0" font-size="12px" line-height="18px">
+          <p>Provide premium options for slots as well as options that are more sustainable</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image css-class="mbl-pt-25" align="right" padding="10px 0" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/delivery-linked-checkout-image.png" alt="Delivery Linked Checkout image" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column width="30%" background-color="#F6EFFF" border="1.5px solid white">
+        <mj-image css-class="w-auto" height="52px" padding-top="25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/dlc-image-01.png" alt="dlc-image-01" />
+        <mj-text align="center" font-size="12px" padding-bottom="25px" line-height="18px">
+          <p>Offer Competitive Fulfillment <br>Timelines</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="30%" background-color="#ECF9FF" border="1.5px solid white">
+        <mj-image css-class="w-auto" height="52px" padding-top="25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/dlc-image-02.png" alt="dlc-image-02" />
+        <mj-text align="center" font-size="12px" padding-bottom="25px" line-height="18px">
+          <p>Create New <br>Revenue Opportunities</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="30%" background-color="#F6EFFF" border="1.5px solid white">
+        <mj-image css-class="w-auto" height="52px" padding-top="25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/dlc-image-03.png" alt="dlc-image-03" />
+        <mj-text align="center" font-size="12px" padding-bottom="25px" line-height="18px">
+          <p>Improve First Attempt Delivery Rates</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="90%" background-color="#FFEFEA" border="1.5px solid white">
+        <mj-image css-class="w-auto" height="52px" padding-top="25px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/dlc-image-04.png" alt="dlc-image-04" />
+        <mj-text align="center" font-size="12px" padding-bottom="25px" line-height="18px">
+          <p>Incentivize customers to opt for faster deliveries with dynamically priced & premium slot options</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center" padding="15px 30px" font-size="20px" font-weight="600" line-height="30px">
+          <h2>Order-to-Delivery Real World Ready Supply Chain Execution Platform</h2>
+        </mj-text>
+        <mj-image padding="15px 30px" src="https://info.locus.sh/hubfs/Emailer%20images/locus-pharmacy/platform-image.png" alt="Platform Image" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#290A38">
+      <mj-column width="100%">
+        <mj-text align="center" color="white" font-size="15px" font-weight="500" line-height="20px" font-style="italic">
+          <p>Interested in knowing how PharmEasy can do the same?</p>
+        </mj-text>
+        <mj-button background-color="#14B5F0" border-radius="0" font-size="15px" font-weight="700" line-height="20px" href="https://locus.sh/schedule-demo/">
+          Click here to sign up for a demo
+        </mj-button>
+        <mj-text align="center" color="white" font-size="15px" line-height="20px">
+          <p>Or reply to this mail to speak to a representative</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-repeat="no-repeat" background-size="cover" background-position="center" background-url="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/growth-delivered-bg.png">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center mbl-fs-16 mbl-lh-22" color="white" font-size="18px" font-weight="700" line-height="24px">
+          Growth, Delivered.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1" padding="30px 0">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image css-class="mbl-center" width="78px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/locus-logo-dark.png" alt="locus logo dark" href="https://locus.sh" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-social css-class="align-center" align="right" icon-size="28px" mode="horizontal">
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-twitter.png" name="twitter-noshare" href="https://twitter.com/Locus_Sh"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-instagram.png" name="instagram-noshare" href="https://www.instagram.com/locus.sh/"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-youtube.png" name="youtube-noshare" href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-linkedin.png" name="linkedin-noshare" href="https://www.linkedin.com/company/locus-sh/"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          {{ site_settings.company_name }},&nbsp;{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="unsubscribe-link mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          <a href="{{ unsubscribe_link }}">Unsubscribe</a>
+        </mj-text>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -7,7 +7,7 @@
       <mj-all font-family="Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" font-size="14px" line-height="1.45" />
       <mj-button background-color="#14B5F0" inner-padding="8px 30px" font-size="12px" font-weight="600" border-radius="0" />
     </mj-attributes>
-    <mj-style inline="inline">
+    <mj-style>
       .bg-banner-container::before {
       content: '';
       display: block;
@@ -128,12 +128,7 @@
           </mj-column>
         </mj-group>
       </mj-section>
-      <mj-section padding="0">
-        <mj-column>
-          <mj-image width="300px" src="https://www.online-image-editor.com//styles/2014/images/example_image.png" />
-        </mj-column>
-      </mj-section>
-      <!-- <mj-section padding-left="10px" padding-top="0" padding-bottom="0" css-class="bg-banner-container">
+      <mj-section padding-left="10px" padding-top="0" padding-bottom="0" css-class="bg-banner-container">
         <mj-column vertical-align="middle" padding-top="62px">
           <mj-text color="#290a38" css-class="mbl-text-center" font-size="19px">
             <p style="font-size:14px"><b>LIVE WEBINAR</b></p>
@@ -144,7 +139,7 @@
             <p class="heading"><b>Masterclass: How to ensure effective carrier management & excellence in your E-commerce logistics operations</b></p>
           </mj-text>
         </mj-column>
-      </mj-section> -->
+      </mj-section>
     </mj-wrapper>
     <mj-wrapper css-class="align-left" padding="25.5px 15px">
       <mj-section background-color="#fff">
