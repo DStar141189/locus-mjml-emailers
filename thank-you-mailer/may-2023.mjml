@@ -1,91 +1,85 @@
 <mjml>
   <mj-head>
     <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
-    <mj-breakpoint width="800px" />
-    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800" />
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />{% endif %}
+    </mj-raw>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700" />
     <mj-attributes>
-      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" font-size="14px" line-height="1.45" />
-      <mj-button background-color="#14B5F0" inner-padding="8px 30px" font-size="12px" font-weight="600" border-radius="0" />
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
     </mj-attributes>
     <mj-style inline="inline">
-      .heading {
-      font-size: 15px;
-      max-width: 14rem;
-      margin: 12px auto 12px 0 !important;
+      .mw-70 div {
+        max-width: 70% !important;
       }
 
-      h1,
-      p {
-      margin: 0;
+      .unsubscribe-link div a {
+        color: #14B4EF !important;
       }
+    </mj-style>
+    <mj-style>
+      @media (max-width:480px) {
+        .align-center {
+          text-align: center;
+        }
 
-      h1{
-      font-weight: 300;
-      font-size: 2.2em;
-      line-height: 1;
-      margin: 0.2em 0;
-      }
+        .mbl-center table {
+          margin: 0 auto !important;
+        }
 
-      h1 b{
-      font-weight: 800;
-      font-size: 1.25em;
-      }
+        .mbl-text-center div {
+          text-align: center !important;
+        }
 
-      .align-left{
-      text-align: left !important;
-      }
+        .mbl-fs-10 div {
+          font-size: 10px !important;
+        }
 
-      .pad-reset > table > tbody > tr > td{
-      padding: 0 !important;
-      }
+        .mbl-fs-14 div {
+          font-size: 14px !important;
+        }
 
-      .btn a{
-      font-size: 18px !important;
-      }
+        .mbl-fs-16 div {
+          font-size: 16px !important;
+        }
 
-      .purple-bg {
-      background-color: #2A0B39;
-      }
+        .mbl-fs-24 div {
+          font-size: 24px !important;
+        }
 
-      a {
-      color: #14B5F0;
-      }
-      @media only screen and (max-width:830px) {
-      .heading {
-      max-width: 75%;
-      margin: 12px auto !important;
-      }
+        .mbl-lh-14 div {
+          line-height: 14px !important;
+        }
 
-      .mbl-text-center div {
-      text-align: center !important;
-      color: #fff !important;
-      position: relative;
-      z-index: 999 !important;
-      }
+        .mbl-lh-18 div {
+          line-height: 18px !important;
+        }
 
-      h1 {
-      margin: 0.5em 0 !important;
-      }
-      }
+        .mbl-lh-22 div {
+          line-height: 22px !important;
+        }
 
-      @media only screen and (max-width:530px) {
-      .heading {
-      max-width: 100%;
-      }
+        .mbl-lh-32 div {
+          line-height: 32px !important;
+        }
 
-      h1 {
-      font-size: 1.8em !important;
-      }
+        .mbl-mw-100 div {
+          max-width: 100% !important;
+        }
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#eee" width="800px">
+  <mj-body background-color="#eee">
     <mj-raw>
       <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
     </mj-raw>
-    <mj-section padding="20px 15px" background-color="#faf5f2">
-      <mj-column width="100%" vertical-align="middle">
-        <mj-image width="120px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/locus-logo.png" alt="Locus logo" />
+    <mj-section background-color="#faf5f2">
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="mbl-center" width="100px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/locus-logo.png" alt="Locus logo" />
+      </mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-image css-class="mbl-center" width="100px" align="right" src="https://info.locus.sh/hubfs/infocus-logo-black.png" alt="Locus logo" />
       </mj-column>
     </mj-section>
     <mj-section padding="0">
@@ -93,34 +87,46 @@
         <mj-image padding="0" src="{{ module.hero_image.src }}" alt="{{ module.hero_image.alt }}" />
       </mj-column>
     </mj-section>
-    <mj-section padding="30px 15px" background-color="white">
+    <mj-section background-color="white">
       <mj-column width="100%">
-        <mj-text color="#290a38" color="#290a38" font-size="15px" line-height="1.8">
+        <mj-text color="#290a38" line-height="1.8">
           {{ module.section_one }}
         </mj-text>
-        <mj-button align="center" href="{{ module.cta_button.button_link.url.href }}" css-class="btn">{{ module.cta_button.button_text }}</mj-button>
-        <mj-text color="#290a38" color="#290a38" font-size="15px" line-height="1.8">
+        <mj-button css-class="mbl-center" align="center" background-color="#14B4EF" border-radius="0" color="white" font-size="14px" font-weight="700" inner-padding="10px 30px" line-height="20px" href="{{ module.cta_button.button_link.url.href }}">
+          {{ module.cta_button.button_text }}
+        </mj-button>
+        <mj-text color="#290a38" line-height="1.8">
           {{ module.section_two }}
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="30px 15px" background-color="#2A0B39">
+    <mj-section padding="0" background-repeat="no-repeat" background-size="cover" background-position="center" background-url="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/growth-delivered-bg.png">
       <mj-column width="100%">
-        <mj-text color="#fff" align="center" font-size="11px" font-weight="500">
-          <p>{{ site_settings.company_name }},</p>
+        <mj-text css-class="mbl-text-center mbl-fs-16 mbl-lh-22" color="white" font-size="18px" font-weight="700" line-height="24px">
+          Growth, Delivered.
         </mj-text>
-        <mj-text color="#fff" align="center" font-size="11px" font-weight="500">
-          <p>{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004</p>
-        </mj-text>
-        <mj-social icon-size="30px" border-radius="0px" mode="horizontal">
-          <mj-social-element href="https://twitter.com/Locus_Sh" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-tw.png" />
-          <mj-social-element href="https://www.instagram.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-in.png" />
-          <mj-social-element href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-yt.png" />
-          <mj-social-element href="https://www.linkedin.com/company/locus-sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-li.png" />
-          <mj-social-element href="https://www.facebook.com/locus.sh/" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/icon-fb.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1" padding="30px 0">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image css-class="mbl-center" width="78px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/locus-logo-dark.png" alt="locus logo dark" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-social css-class="align-center" align="right" icon-size="28px" mode="horizontal">
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-x.png" name="twitter-noshare" href="https://twitter.com/Locus_Sh"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-instagram.png" name="instagram-noshare" href="https://www.instagram.com/locus.sh/"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-youtube.png" name="youtube-noshare" href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-linkedin.png" name="linkedin-noshare" href="https://www.linkedin.com/company/locus-sh/"></mj-social-element>
         </mj-social>
-        <mj-text align="center" font-size="11px" font-weight="500">
-          <p><a href="{{ unsubscribe_link }}">Unsubscribe</a></p>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          {{ site_settings.company_name }},&nbsp;{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="unsubscribe-link mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          <a href="{{ unsubscribe_link }}">Unsubscribe</a>
         </mj-text>
       </mj-column>
     </mj-section>

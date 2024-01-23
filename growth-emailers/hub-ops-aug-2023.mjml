@@ -121,12 +121,12 @@
         </mj-button>
       </mj-column>
       <mj-column width="50%">
-        <mj-button css-class="mbl-btn-center mbl-pl-25" align="left" background-color="#3363FF" border-radius="0" font-weight="700" line-height="1.25" padding-left="12px" href="mailto:support@locus.sh">
+        <mj-button css-class="mbl-btn-center mbl-pl-25" align="left" background-color="#3363FF" border-radius="0" font-weight="700" line-height="1.25" padding-left="12px" href="mailto:support@locus.sh?subject=Hub%20Operations%20Enquiry&body=Hi%2C%0AI%E2%80%99d%20like%20to%20learn%20more%20about%20Hub%20Operations.%20Requesting%20a%20callback.">
           Request Callback
         </mj-button>
       </mj-column>
     </mj-section>
-    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad">
+    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad" background-repeat="no-repeat" background-size="contain" background-url="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/shadow-rectangle-bg.png">
       <mj-column width="100%">
         <mj-text color="#8D52CC" font-size="26px" font-weight="700" line-height="1.25" text-transform="capitalize" css-class="mbl-text-center">
           <h2>Seamless hub-to-hub <br>transportation from first to last mile</h2>
@@ -150,7 +150,7 @@
         <mj-image css-class="mbl-d-none" padding="10px 0" src="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/section-01-mbl-hero-image.png" alt="section-01-hero-image" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad">
+    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad" background-repeat="no-repeat" background-size="cover" background-url="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/shadow-rectangle-bg.png">
       <mj-column width="50%">
         <mj-text font-size="18px" font-weight="700" line-height="1.25" padding-right="0" css-class="mbl-pr-25">
           <h3>Optimize Shipments for Ideal Vehicle Loading</h3>
@@ -169,7 +169,7 @@
         <mj-image css-class="mbl-d-none" padding="10px 0" src="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/section-02-mbl-hero-image.png" alt="section-02-hero-image" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad">
+    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad" background-repeat="no-repeat" background-size="contain" background-url="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/shadow-rectangle-bg.png">
       <mj-column width="50%">
         <mj-text font-size="18px" font-weight="700" line-height="1.25" padding-right="0" css-class="mbl-pr-25">
           <h3>Real-time Visibility across all miles</h3>
@@ -188,7 +188,7 @@
         <mj-image css-class="mbl-d-none" padding="10px 0" src="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/section-03-mbl-hero-image.png" alt="section-03-hero-image" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad">
+    <mj-section background-color="white" padding="34px 25px" css-class="box-shadow sec-pad" background-repeat="no-repeat" background-size="cover" background-url="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/shadow-rectangle-bg.png">
       <mj-column width="50%">
         <mj-text font-size="18px" font-weight="700" line-height="1.25" padding-right="0" css-class="mbl-pr-25">
           <h3>End-of-Trip Reconciliation At Hubs</h3>
@@ -207,7 +207,7 @@
         <mj-image css-class="mbl-d-none" padding="10px 0" src="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/section-04-mbl-hero-image.png" alt="section-04-hero-image" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="white" padding="30px 20px" css-class="box-shadow sec-pad">
+    <mj-section background-color="white" padding="30px 20px" css-class="box-shadow sec-pad" background-repeat="no-repeat" background-size="cover" background-url="https://info.locus.sh/hubfs/Emailer%20images/growth-emailers/hub-ops-aug-2023/shadow-rectangle-bg.png">
       <mj-column width="100%">
         <mj-spacer height="5px" />
         <mj-text>
@@ -221,7 +221,7 @@
         </mj-text>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-button background-color="#3363FF" border-radius="0" font-size="12px" font-weight="700" inner-padding="12px 25px" line-height="1.25" text-transform="capitalize" href="https://locus.sh/schedule-demo/">
+        <mj-button background-color="#3363FF" border-radius="0" font-size="12px" font-weight="700" inner-padding="12px 25px" line-height="1.25" text-transform="capitalize" href="mailto:support@locus.sh?subject=Hub%20Operations%20Enquiry&body=Hi%2C%0AI%E2%80%99d%20like%20to%20learn%20more%20about%20Hub%20Operations.%20Requesting%20a%20callback.">
           Get in touch with our experts
         </mj-button>
       </mj-column>
