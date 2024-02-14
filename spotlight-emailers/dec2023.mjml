@@ -1,0 +1,290 @@
+<mjml>
+  <mj-head>
+    <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />
+      {% endif %}
+    </mj-raw>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+      <mj-text color="#290A38" font-size="14px" font-weight="500" line-height="1.5" />
+    </mj-attributes>
+    <mj-style>
+      .locus-text {
+      color: #290A38;
+      }
+      .locus-blue {
+      color: #14B4EF;
+      }
+      .locus-secondary-blue {
+      color: #3363FF;
+      }
+      .locus-purple {
+      color: #AF66FF;
+      }
+      .locus-orange {
+      color: #FF6329;
+      }
+      .td-none {
+      text-decoration: none;
+      }
+      .fw-500 {
+      font-weight: 500;
+      }
+      .ft-rt {
+      float: right;
+      }
+      .mb-16 {
+      margin-bottom: 16px !important;
+      }
+      .milestones-sec .mj-column-per-50{
+      width: 50% !important;
+      }
+      @media (max-width:480px) {
+      .sec-pad > div > table > tbody > tr > td {
+      padding: 20px 0 !important;
+      }
+      .sec-pad > table > tbody > tr > td {
+      padding: 20px 0 !important;
+      }
+      .align-center {
+      text-align: center;
+      }
+      .mbl-pl-25 {
+      padding-left: 25px !important;
+      }
+      .mbl-pr-25 {
+      padding-right: 25px !important;
+      }
+      .mbl-center table {
+      margin: 0 auto !important;
+      }
+      .mbl-img-left {
+      text-align: left !important;
+      }
+      .mbl-text-center div {
+      text-align: center !important;
+      }
+      .mbl-mw-100 div {
+      max-width: 100% !important;
+      }
+      .media-img {
+      display:block;
+      float:none;
+      margin:0 auto 20px !important;
+      }
+      }
+      @media (min-width:768px) {
+      .d-block-desk {
+      display: block;
+      }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      h1,
+      h2,
+      p,
+      ul,
+      ol,
+      li,
+      span {
+        font-size: 1em;
+        margin: 0;
+      }
+
+      .mw-70 div {
+        max-width: 70% !important;
+      }
+
+      .unsubscribe-link div a {
+        color: #14B4EF !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f6f6f6">
+    <mj-raw>
+      <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
+    </mj-raw>
+    <mj-section background-color="white" padding="34px 25px 10px" css-class="sec-pad" background-position="right 0" background-repeat="no-repeat" background-size="267px" background-url="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/repeat-grid-01.png">
+      <mj-column width="50%">
+        <mj-image align="left" width="92px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/locus-logo.png" alt="Locus logo" href="https://locus.sh/" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="18px" font-weight="500">
+          <p>Locus in Spotlight</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-weight="400" padding="20px 25px 14px">
+          <p>December 2023</p>
+        </mj-text>
+        <mj-text font-size="35px" font-weight="800" line-height="1.2" padding="7px 25px 12px">
+          <h1>2023 Wrapped, Locus Style</h1>
+        </mj-text>
+        <mj-text>
+          <p>Hi there!</p>
+        </mj-text>
+        <mj-text>
+          <p>With a whirlwind 2023 almost behind us, we thought we’d take a moment to wish you a Happy New Year, and reflect on the year gone by.</p>
+        </mj-text>
+        <mj-image padding-top="20px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/hero-image.png" alt="hero image" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 25px 14px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2" padding="10px 25px 14px">
+          <h2>Benchmarking Success in <span class="locus-blue d-block-desk">Last-Mile Logistics</span></h2>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text>
+          <!--[if mso]><table border="0" cellpadding="0" cellspacing="0" width="160" align="right" style="width:160px;"><tr><td style="padding:0 0 20px 20px;"><![endif]-->
+          <img class="media-img" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/image-1.png" alt="aside webinar image" align="left" width="196px" style="margin:0 30px 5px 0">
+          <!--[if mso]></td></tr></table><![endif]-->
+          <p class="mb-16">We are proud to have condensed eight years of learnings in the <a href="https://app.locus.sh/assessment/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023" class="locus-secondary-blue fw-600">Last Mile Maturity Assessment tool.</a> This groundbreaking resource empowers logistics professionals to navigate last-mile logistics challenges and grow.</p>
+          <p>The focus on the bottom line continued to stay strong. That’s where our <a href="https://locus.sh/unit-economics-in-last-mile-delivery/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023" class="locus-secondary-blue fw-600">definitive guide on unit economics</a> helps industry leaders optimize their supply chain operations to improve revenue.</p>
+        </mj-text>
+        <mj-text padding-top="0">
+          <p>We even saw some interesting <a href="https://locus.sh/decoding-asia-last-mile-maturity-trends-tech-transformation/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023" class="locus-secondary-blue fw-600">last-mile trends</a> that made for some great insights for businesses in Asia.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Our Relentless Focus on<span class="locus-purple"> Innovation</span> Continues</h2>
+        </mj-text>
+        <mj-image padding-top="20px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/shipflex-thumb.jpg" alt="Shipflex Youtube Thumbnail" href="https://www.youtube.com/watch?v=uzpXHgzZpGI/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023" />
+        <mj-text>
+          <p class="mb-16">Every business should be able to deliver their products to the convenience of their customers’ homes, even if they don’t have their own fleet.</p>
+          <p>We launched <a class="locus-secondary-blue" href="https://locus.sh/ship-flex/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023">ShipFlex</a> to automate finding the right carrier at the right price so that they can stay focussed on growing their core business.</p>
+        </mj-text>
+        <mj-image padding-top="10px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/transporter-management.jpg" alt="transporter management dashboard image" />
+        <mj-text>
+          <p>To help businesses trim transporter costs, reconcile payments with on-ground data, and manage transporter contracts, we launched <a class="locus-secondary-blue" href="https://locus.sh/transporter-management-software/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023">Transporter Management Solution.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="15px 25px 20px" css-class="sec-pad milestones-sec">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Recent Triumphs: Celebrating Key<span class="locus-blue"> Milestones</span></h2>
+        </mj-text>
+        <mj-text>
+          <p>We are very grateful that our efforts to solve complex logistics challenges with innovative solutions continues to be recognized by the industry.</p>
+        </mj-text>
+        <mj-text>
+          <p>Locus has been recognized by Gartner as a <a class="locus-secondary-blue" href="https://blog.locus.sh/locus-identified-as-sample-vendor-in-gartners-hype-cycle-2023-report-for-supply-chain-execution-technologies/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023">sample vendor</a> for supply chain technologies for the second consecutive year at the Hype Cycle Event 2023.</p>
+        </mj-text>
+        <mj-text>
+          <p>Our Last Mile Maturity Assessment also bagged us the Gold Winner at the <a class="locus-secondary-blue" href="https://www.linkedin.com/feed/update/urn:li:activity:7132300487562854400/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023">Momentum ITSMA Marketing Excellence Awards</a> (MEAs) in the Small & Medium-Sized Businesses category.</p>
+        </mj-text>
+        <mj-text padding-bottom="30px">
+          <p>There is no better feeling hearing first hand how we made a real difference for our clients. It’s what gets us to push ourselves harder to create an impact!</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image align="left" width="98px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/logo-justo.png" alt="Justo logo" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image align="right" width="52px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/quote-icon.png" padding-top="5px" alt="Comma Icon" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding-top="20px">
+          <p>Thanks to Locus’ real-world ready dispatch management platform, we’ve reduced costs by 66% all while improving our order visibility, optimizing our delivery routes, enhancing our communication with rider personnel, and improving our on-time delivery performance, consequently increasing our customer satisfaction.</p>
+          &nbsp;
+          <p style="font-style:italic;font-weight:800;">Juan Pablo Diaz Rodriguez</p>
+          <p>Head of Last-Mile - Jüsto</p>
+        </mj-text>
+        <mj-divider border-width="0.5px" border-color="#290A38" padding-top="30px" padding-bottom="20px" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image align="left" width="122px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/logo-lulu.png" alt="lulu group logo" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image align="right" width="52px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/quote-icon.png" padding-top="22px" alt="Comma Icon" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding-top="10px" padding-bottom="20px">
+          <p>At Lulu International Group, as customer demand sky-rockets the complexity of managing our carrier network has proven to be a huge optimization opportunity. With Locus’ ShipFlex, we are looking to streamline third-party deliveries with rich carrier integrations, real-time tracking and more onto a single dashboard. This enables us to take full control of our third-party order-to-delivery process, operate more efficiently, and ensure timely deliveries, resulting in an enhanced customer experience.</p>&nbsp;
+          <p style="font-style:italic;font-weight:800;">Shinhas Majeed</p>
+          <p>Group General Manager - eCommerce at Lulu Group International</p>
+        </mj-text>
+        <mj-divider border-width="0.5px" border-color="#290A38" padding-top="25px" padding-bottom="35px" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image align="left" width="80px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/logo-FKS.png" alt="fks logo" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image align="right" width="52px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/quote-icon.png" alt="Comma Icon" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding-top="20px">
+          <p>With Locus’ routing and capacity management solutions, we were able to utilize our fleet better, leaving zero room for space wastage, which led to lower fuel and driver costs, and streamlined vehicle management.</p>&nbsp;
+          <p style="font-style:italic;font-weight:800;">Steven Theofilus Cahyadimulya</p>
+          <p>Division Head- FKS Logistics</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Our Globetrotting<span class="locus-purple"> Diaries</span></h2>
+        </mj-text>
+        <mj-image padding-top="20px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/dec2023/event-photos.jpg" alt="Global Tour Image" />
+        <mj-text padding-top="20px">
+          <p>It has been engaging and insightful sessions with industry peers and experts at various locations worldwide. From <a class="locus-secondary-blue" href="https://blog.locus.sh/gartner-supply-chain-symposium-xpo-highlights/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023">Gartner Supply Chain Symposium/Xpo™ in Orlando</a> to a series of thought-provoking roundtables with industry leaders from South East Asia, India and the Middle East, these insights will fuel our growth and innovation in the coming year.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 25px 40px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Looking Forward to<span class="locus-blue d-block-desk"> New Year 2024</span></h2>
+        </mj-text>
+        <mj-text>
+          <p>As we approach 2024, we’ve compiled a <a class="locus-secondary-blue" href="https://locus.sh/logistics-trends-2024/?utm_source=email&utm_medium=email&utm_campaign=newsletter_dec2023">list of trends</a> that supply chain and logistics industry players should be aware of to stay ahead in the game.</p>
+        </mj-text>
+        <mj-text>
+          <p> Till then, we wish you a Happy New Year filled with new opportunities for growth, learning, health and happiness.</p>
+        </mj-text>
+        <mj-text>
+          <p>See you on the other side!</p>
+          <p> Happy Holidays!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 25px" css-class="sec-pad" background-repeat="no-repeat" background-size="cover" background-position="center" background-url="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/growth-delivered-bg.png">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center mbl-fs-16 mbl-lh-22" color="white" font-size="18px" font-weight="700" line-height="24px">
+          Growth, Delivered.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1" padding="25px" css-class="sec-pad">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image css-class="mbl-center" width="78px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/locus-logo-dark.png" alt="locus logo dark" href="https://locus.sh" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-social css-class="align-center" align="right" icon-size="28px" mode="horizontal">
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-x.png" name="twitter-noshare" href="https://twitter.com/Locus_Sh"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-instagram.png" name="instagram-noshare" href="https://www.instagram.com/locus.sh/"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-youtube.png" name="youtube-noshare" href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-linkedin.png" name="linkedin-noshare" href="https://www.linkedin.com/company/locus-sh/"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          {{ site_settings.company_name }},&nbsp;{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="unsubscribe-link mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          <a href="{{ unsubscribe_link }}">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
