@@ -252,7 +252,7 @@
     <mj-section background-color="white" padding="10px 25px" css-class="sec-pad">
       <mj-column width="100%">
         <mj-text font-size="30px" font-weight="800" line-height="1.2">
-          <h2>Solution spotlight: The New Future of <span class="locus-purple">TMS</span></h2>
+          <h2>Solution Spotlight: The New Future of <span class="locus-purple">TMS</span></h2>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -265,7 +265,7 @@
           <p>For decades, a TMS has been a reliable workhorse. But the reality is that market conditions have changed so drastically that it has been difficult for a traditional TMS to keep up with the needs of the hour.</p>
         </mj-text>
         <mj-text padding-left="0" css-class="mbl-pl-25">
-          <p>On the flip side, we understand the investments time, resources and training needed to set one up. The question becomes: is there is a way to iron out issues and enhance your TMS <a class="locus-secondary-blue" href="https://blog.locus.sh/reasons-to-consider-upskilling-your-tms/" target="_blank">without completely replacing it</a>?</p>
+          <p>On the flip side, we understand the large amount of investments, time, resources, and training needed to set one up. The question becomes: is there is a way to iron out issues and enhance your TMS <a class="locus-secondary-blue" href="https://blog.locus.sh/reasons-to-consider-upskilling-your-tms/" target="_blank">without completely replacing it</a>?</p>
         </mj-text>
       </mj-column>
       <mj-column width="100%">
