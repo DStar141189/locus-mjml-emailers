@@ -218,7 +218,7 @@
           <ul style="padding-left:1em;">
             <li style="margin-bottom:0.75em;padding-left:0.25em;">How to mitigate cost of returns</li>
             <li style="margin-bottom:0.75em;padding-left:0.25em;">Align delivery and installation for the same day without additional cost</li>
-            <li style="margin-bottom:0.75em;padding-left:0.25em;">Utilize 90% rig space for maxim fleet utilization and lot more</li>
+            <li style="margin-bottom:0.75em;padding-left:0.25em;">Utilize 90% rig space for maximum fleet utilization and lot more</li>
           </ul>
         </mj-text>
         <mj-text padding-left="0" css-class="mbl-pl-25">
@@ -242,7 +242,7 @@
         </mj-text>
         <mj-text>
           <ul style="padding-left:1rem;">
-            <li>Connect retailers to a 160+ carrier network</li>
+            <li>Connect to 160+ carrier network</li>
             <li>Auto assign orders to carriers based on rules</li>
             <li>Track captive and outsourced on a single dashboard and much more</li>
           </ul>
