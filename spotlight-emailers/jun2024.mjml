@@ -1,0 +1,387 @@
+<mjml>
+  <mj-head>
+    <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />
+      {% endif %}
+    </mj-raw>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+      <mj-text color="#290A38" font-size="14px" font-weight="500" line-height="1.5" />
+    </mj-attributes>
+    <mj-style>
+      .locus-text {
+      color: #290A38;
+      }
+      .locus-blue {
+      color: #14B4EF;
+      }
+      .locus-secondary-blue {
+      color: #3363FF;
+      }
+      .locus-purple {
+      color: #AF66FF;
+      }
+      .locus-orange {
+      color: #FF6329;
+      }
+      .td-none {
+      text-decoration: none;
+      }
+      .fs-italic {
+      font-style: italic;
+      }
+      .fw-500 {
+      font-weight: 500;
+      }
+      .fw-600 {
+      font-weight: 600;
+      }
+      .fw-700 {
+      font-weight: 700;
+      }
+      .ft-rt {
+      float: right;
+      }
+      .mbl-d-block {
+      display: none;
+      }
+      .mb-16 {
+      margin-bottom: 16px !important;
+      }
+      .img-mw-75 img {
+      max-width: 75% !important;
+      margin-inline: auto;
+      }
+      .mw-80pc div {
+      max-width: 80% !important;
+      }
+      @media (max-width:480px) {
+      .hero-sec > div > table {
+      background-image: url("https://info.locus.sh/hubfs/Emailer%20images/spotlight/oct2023/mobile-hero-bg-image.jpg") !important;
+      background-position: center top !important;
+      }
+      .media-img {
+      display:block;
+      float:none;
+      margin:0 auto 20px !important;
+      }
+      .sec-pad > div > table > tbody > tr > td {
+      padding: 20px 0 !important;
+      }
+      .sec-pad > table > tbody > tr > td {
+      padding: 20px 0 !important;
+      }
+      .align-center {
+      text-align: center;
+      }
+      .mbl-d-block {
+      display: block;
+      }
+      .mbl-pl-25 {
+      padding-left: 25px !important;
+      }
+      .mbl-pr-25 {
+      padding-right: 25px !important;
+      }
+      .mbl-center table {
+      margin: 0 auto !important;
+      }
+      .mbl-img-left {
+      text-align: left !important;
+      }
+      .mbl-text-center div {
+      text-align: center !important;
+      }
+      .mbl-mw-100 div {
+      max-width: 100% !important;
+      }
+      .mbl-fs-32 div {
+      font-size: 28px !important;
+      }
+      .mbl-fs-12 div {
+      font-size: 13px !important;
+      line-height: 1.4;
+      }
+      .img-mw-75 img {
+      max-width: 100% !important;
+      }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      h1,
+      h2,
+      p,
+      ul,
+      ol,
+      li,
+      span {
+        font-size: 1em;
+        margin: 0;
+      }
+
+      .mw-70 div {
+        max-width: 70% !important;
+      }
+
+      .unsubscribe-link div a {
+        color: #14B4EF !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f6f6f6">
+    <mj-raw>
+      <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
+    </mj-raw>
+    <mj-section background-color="white" padding="18px 25px" css-class="sec-pad">
+      <mj-column width="50%">
+        <mj-image align="left" width="92px" src="https://info.locus.sh/hubfs/Emailer%20images/customer-newsletter-template/locus-logo.png" alt="Locus logo" href="https://locus.sh/" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right">
+          <p>June 2024</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-size="cover" background-url="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jan2024/title-bg.jpg">
+      <mj-column width="100%">
+        <mj-text align="center" color="white" font-size="30px" padding="0 25px">
+          <h1 class="fw-600">Locus in Spotlight</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="20px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text>
+          <p>Hi there!</p>
+          <p>In this edition of our Locus in Spotlight newsletter, we talk about why cutting-edge logistics tech is not a choice but a <b>need</b> for retailers to stay competitive. Brands like Walmart agree with us.</p>
+        </mj-text>
+        <mj-text>
+          <p>Have a great read!</p>
+        </mj-text>
+        <mj-image padding-top="20px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/hero-image.webp" alt="hero image" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="20px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Fuel for <span class="locus-blue">Thought</span></h2>
+        </mj-text>
+        <mj-spacer height="10px" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image align="left" css-class="mbl-img-left" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/fuel-for-thought-image.webp" alt="fuel for thought image" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text padding-left="0" css-class="mbl-pl-25">
+          <a href="https://blog.locus.sh/strategies-to-compete-with-amazon-and-walmart-for-retailers/" class="locus-text td-none" target="_blank">Leveling the Retail Playing Field with Smart Tech: Compete with Walmart and Amazon</a><span class="locus-secondary-blue ft-rt">&nbsp;&#62;</span>
+        </mj-text>
+        <mj-divider padding-top="4px" padding-bottom="4px" padding-left="0" css-class="mbl-pl-25" border-width="0.5px" border-color="#290A38" />
+        <mj-text padding-left="0" css-class="mbl-pl-25">
+          <a href="https://locus.sh/reduce-wismo-calls-retail/" class="locus-text td-none" target="_blank">WISMO calls haunting your Customer Success team? We have the solution</a><span class="locus-secondary-blue ft-rt">&nbsp;&#62;</span>
+        </mj-text>
+        <mj-divider padding-top="4px" padding-bottom="4px" padding-left="0" css-class="mbl-pl-25" border-width="0.5px" border-color="#290A38" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Build vs Buy: <span class="locus-orange">Walmart’s</span> Take!</h2>
+        </mj-text>
+        <mj-text>
+          <p>Retail titans like Walmart have been known for building their own solutions inhouse. However, a few years back Walmart acknowledged partnering with a top supply chain software vendor for transforming their SCM operations.</p>
+        </mj-text>
+        <mj-text>
+          <p>Why?</p>
+        </mj-text>
+        <mj-text>
+          <p>An off-the-shelf solution brings with it benefits like:</p>
+        </mj-text>
+        <mj-text>
+          <ul style="padding-left:1rem;">
+            <li>Faster deployment time</li>
+            <li>24/7 Support</li>
+            <li>Highly Scalable</li>
+            <li>Zero IT resource wastage</li>
+          </ul>
+        </mj-text>
+        <mj-text>
+          <p>Locus is a smart order to delivery AI-powered solution that takes care of logistics operations for retail. Check out why brands like <b>Nestle, Unilever, Croma, Lulu Group</b> trust Locus with their retail fulfillment.</p>
+        </mj-text>
+        <mj-spacer height="5px" />
+        <mj-button align="left" background-color="#3363FF" border-radius="0" font-weight="800" href="https://app.locus.sh/demo/retail.html?utm_source=newsletter&utm_medium=spotlight_june2024&utm_campaign=watch_demos">
+          Watch Demo
+        </mj-button>
+        <mj-spacer height="5px" />
+        <mj-text font-weight="600">
+          <p>Still unsure? Here’s our definitive guide on why buying is better - <a class="locus-secondary-blue" href="https://locus.sh/whitepaper/buying-or-building-logistics-software/" target="_blank">Download Whitepaper</a></p>
+        </mj-text>
+        <mj-spacer height="15px" />
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="20px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>From our Social <span class="locus-purple">Feed</span></h2>
+        </mj-text>
+        <mj-spacer height="5px" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image width="250px" padding-right="15px" css-class="mbl-img-left mbl-pr-25" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/social-feed-image-1.webp" alt="social post image 1" />
+        <mj-text padding-right="15px" css-class="mbl-pr-25">
+          <p>A glimpse into our world at the Locus HQ in Bengaluru! Check out an exclusive sneak peek on LinkedIn, and explore exciting career opportunities with us.</p>
+        </mj-text>
+        <mj-button align="left" background-color="#3363FF" border-radius="0" font-weight="800" href="https://www.linkedin.com/posts/locus-sh_office-lifeatlocus-locushq-activity-7203357951779049474-kq8O?utm_source=share&utm_medium=member_desktop">
+          Check here
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image width="250px" padding-left="15px" css-class="mbl-img-left mbl-pl-25" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/social-feed-image-2.webp" alt="social post image 2" href="https://www.youtube.com/watch?v=k0o78lp8KUg" />
+        <mj-text padding-left="15px" css-class="mbl-pl-25">
+          <p>We're turning 9! From a women’s safety app to a global logistics powerhouse, our journey has been nothing short of amazing. 1.2 billion deliveries, $303M+ saved, 82M miles reduced, and 14.4M kg CO2 cut!</p>
+        </mj-text>
+        <mj-button align="left" padding-left="15px" css-class="mbl-img-left mbl-pl-25" background-color="#3363FF" border-radius="0" font-weight="800" href="https://locus.sh/world-logistics-day/">
+          Discover more
+        </mj-button>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="15px" />
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Gartner Recognition</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="10px 25px" css-class="sec-pad">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image align="left" css-class="mbl-img-left" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/gartner-recognition-image.webp" alt="industry insights image" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text padding-left="0" css-class="mbl-pl-25">
+          <p>We are in the spotlight again! Gartner has recognized Locus in the 2024 Market Guide for Last Mile Delivery Technologies, 2024 Market Guide for Multicarrier Parcel Management and 2024 Hype Cycle for Supply Chain Execution Technologies.</p>
+          <br>
+          <p>Check out our Analyst Recognition page for more information.</p>
+        </mj-text>
+        <mj-button padding-left="0" css-class="mbl-pl-25" align="left" background-color="#3363FF" border-radius="0" font-weight="800" href="https://locus.sh/analyst-recognition/">
+          Read more here
+        </mj-button>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="15px" />
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="20px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>Discover the Latest <span class="locus-blue">Buzz</span></h2>
+        </mj-text>
+        <mj-spacer height="10px" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image align="left" css-class="mbl-img-left" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/latest-buzz-image.webp" alt="tuning into image" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text padding-left="0" css-class="mbl-pl-25">
+          <a href="https://nrf.com/blog/future-ai-consumer-experience" class="locus-text td-none">How artificial intelligence is key to success in retail customer experience</a><span class="locus-secondary-blue ft-rt">&nbsp;&#62;</span>
+        </mj-text>
+        <mj-divider padding-top="4px" padding-bottom="4px" padding-left="0" css-class="mbl-pl-25" border-width="0.5px" border-color="#290A38" />
+        <mj-text padding-left="0" css-class="mbl-pl-25">
+          <a href="https://nrf.com/blog/5-takeaways-nrfs-inaugural-big-show-asia-pacific" class="locus-text td-none">5 big takeaways from NRF’s Big Show Asia Pacific</a><span class="locus-secondary-blue ft-rt">&nbsp;&#62;</span>
+        </mj-text>
+        <mj-divider padding-top="4px" padding-bottom="4px" padding-left="0" css-class="mbl-pl-25" border-width="0.5px" border-color="#290A38" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-spacer height="15px" />
+        <mj-divider border-color="#290A38" border-width="0.5px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="20px 25px" css-class="sec-pad">
+      <mj-column width="100%">
+        <mj-text font-size="30px" font-weight="800" line-height="1.2">
+          <h2>A Word From Our <span class="locus-orange">Leaders</span></h2>
+        </mj-text>
+        <mj-image padding-top="20px" padding-bottom="20px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/leaders-words-image.webp" alt="word from leaders image" />
+        <mj-text font-weight="600">
+          <p>Three Ways To Leverage Technology Solutions For Retail Returns Management</p>
+        </mj-text>
+        <mj-text>
+          <p class="fs-italic">“Choosing the right technology solutions for managing returns goes beyond the allure of advanced features like route optimization or real-time tracking. It's equally important to consider the level of support and flexibility offered. If you are working with a provider partner, consider their responsiveness to issues, their ability to scale with your business, and their programs' compatibility with your existing systems.”</p>
+        </mj-text>
+        <mj-text font-weight="600">
+          <p class="fs-italic">- Nishith Rastogi, CEO & Founder of Locus</p>
+        </mj-text>
+        <mj-text font-weight="600">
+          <a class="locus-secondary-blue" href="https://www.forbes.com/sites/forbesbusinesscouncil/2024/06/21/three-ways-to-leverage-technology-solutions-for-retail-returns-management/" target="_blank">Read more</a>
+        </mj-text>
+        <mj-image align="left" width="100px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/may2024/publisher-logo-2.webp" alt="publisher logo" />
+        <mj-divider padding-top="20px" padding-bottom="20px" border-width="0.5px" border-color="#290A38" />
+        <mj-text font-weight="600">
+          <p>Towards greener future: Environmentally sustainable initiatives in the logistics sector</p>
+        </mj-text>
+        <mj-text>
+          <p class="fs-italic">“Today’s consumers are better informed and their purchases are value-driven. They favor brands that are not just about profits but also about purpose. By keeping a close track of and aligning with these ever-evolving expectations around sustainability, companies can cultivate loyalty and trust, transforming their brand into a banner for sustainability.”</p>
+        </mj-text>
+        <mj-text font-weight="600">
+          <p class="fs-italic">- Nishith Rastogi, CEO & Founder of Locus</p>
+        </mj-text>
+        <mj-text font-weight="600">
+          <a class="locus-secondary-blue" href="https://www.financialexpress.com/sustainability-2/towards-greener-future-environmentally-sustainable-initiatives-in-the-logistics-sector/3514854/" target="_blank">Read more</a>
+        </mj-text>
+        <mj-image align="left" width="175px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/logo-financial-express.webp" alt="publisher logo" />
+        <mj-divider padding-top="20px" padding-bottom="20px" border-width="0.5px" border-color="#290A38" />
+        <mj-text font-weight="600">
+          <p>Driving Innovation and Sustainability in Logistics</p>
+        </mj-text>
+        <mj-text>
+          <p class="fs-italic">“Engaging with local stakeholders is key to our success. We hold regular discussions with local partners, customers, and industry experts to gain insights into cultural nuances and business practices. This cultural understanding helps us build trust and credibility in each market.”</p>
+        </mj-text>
+        <mj-text font-weight="600">
+          <p class="fs-italic">- Mehul Kapadia, Chief Revenue Officer, Locus</p>
+        </mj-text>
+        <mj-text font-weight="600">
+          <a class="locus-secondary-blue" href="https://www.prittleprattlenews.com/technology/locussh/" target="_blank">Read more</a>
+        </mj-text>
+        <mj-image align="left" width="175px" src="https://info.locus.sh/hubfs/Emailer%20images/spotlight/jun2024/logo-pp-news.webp" alt="publisher logo" />
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 25px" css-class="sec-pad" background-repeat="no-repeat" background-size="cover" background-position="center" background-url="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/growth-delivered-bg.png">
+      <mj-column width="100%">
+        <mj-text css-class="mbl-text-center mbl-fs-16 mbl-lh-22" color="white" font-size="18px" font-weight="700" line-height="24px">
+          Growth, Delivered.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F4F1" padding="25px" css-class="sec-pad">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image css-class="mbl-center" width="78px" align="left" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/locus-logo-dark.png" alt="locus logo dark" href="https://locus.sh" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-social css-class="align-center" align="right" icon-size="28px" mode="horizontal">
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-x.png" name="twitter-noshare" href="https://twitter.com/Locus_Sh"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-instagram.png" name="instagram-noshare" href="https://www.instagram.com/locus.sh/"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-youtube.png" name="youtube-noshare" href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-linkedin.png" name="linkedin-noshare" href="https://www.linkedin.com/company/locus-sh/"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="mw-70 mbl-mw-100 mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          {{ site_settings.company_name }},&nbsp;{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text css-class="unsubscribe-link mbl-text-center mbl-fs-10 mbl-lh-14" font-size="12px" font-weight="500" line-height="16px">
+          <a href="{{ unsubscribe_link }}">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
