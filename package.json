@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "export-path": "export PATH=\"$PATH:./node_modules/.bin\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mjml": "^4.14.1"
+    "mjml": "^4.15.3"
   }
 }

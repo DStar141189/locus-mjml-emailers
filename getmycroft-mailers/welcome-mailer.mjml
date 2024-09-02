@@ -1,0 +1,46 @@
+<mjml>
+  <mj-head>
+    <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />
+      {% endif %}
+    </mj-raw>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins" />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Verdana, Arial" font-size="15px" line-height="1.5" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .d-none {
+        display: none !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#eaf0f6">
+    <mj-raw>
+      <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
+    </mj-raw>
+    <mj-section background-color="white" padding="0">
+      <mj-column width="100%">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/getmycroft-emailers/welcome-mailer-hero-banner.jpg" alt="Hero banner" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-text>
+          {% module "module_17241305269614" path="/Newsletters/getmycroft-emailers/modules/welcome-emailer-content", label="welcome-emailer-content" %}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" css-class="d-none">
+          <p>{{ site_settings.company_name }}, {{ site_settings.company_street_address_1 }}, {{ site_settings.company_street_address_2 }}, {{ site_settings.company_city }}, {{ site_settings.company_state }}, {{ site_settings.company_zip }}, {{ site_settings.company_country }}, {{ site_settings.company_phone }}</p>
+        </mj-text>
+        <mj-text align="center" font-size="13px">
+          <p><a href="{{ unsubscribe_link_all }}" data-unsubscribe="true">Unsubscribe</a> <span>&nbsp;</span> <a href="{{ unsubscribe_link }}" data-unsubscribe="true">Manage Preferences</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
