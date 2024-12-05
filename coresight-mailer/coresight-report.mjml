@@ -1,0 +1,143 @@
+<mjml>
+  <mj-head>
+    <mj-title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</mj-title>
+    <mj-raw>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}" />
+      {% endif %}
+    </mj-raw>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Google Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" />
+      <mj-text color="#290A38" font-size="14px" line-height="1.5" />
+    </mj-attributes>
+    <mj-style>
+      .spacing-24p p {
+      margin-block: 24px !important;
+      }
+      .d-flex > div {
+      display: flex !important;
+      }
+      .h-32p {
+      height: 38px;
+      }
+      .me-12 {
+      margin-right: 12px;
+      }
+      @media (max-width:480px) {
+      .mbl-d-none {
+      display: none;
+      }
+      }
+      @media (min-width:480px) {
+      .desk-d-none {
+      display: none;
+      }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FAF5F2">
+    <mj-raw>
+      <div id="preview_text" style="display:none!important">{% text "preview_text" label="Preview Text <span class=help-text>This will be used as the preview text that displays in some email clients</span>", value="", no_wrapper=True %}</div>
+    </mj-raw>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-image width="200px" src="https://info.locus.sh/hubfs/Emailer%20images/coresight-report/coresight-locus-logo.jpg" alt="logo" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="0">
+      <mj-column width="100%">
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/coresight-report/hero-banner.jpg" alt="hero banner" href="https://locus.sh/omnichannel-to-unified-commerce-transform-your-retail-shopping-experience/" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-text align="center" css-class="spacing-24p">
+          <p style="margin-top: 0 !important;">Hey {{ contact.firstname }},</p>
+          <p>Omnichannel retail has revolutionized the way customers shop, offering flexibility in choosing when and how to buy. However, customers are now demanding even more—they seek a seamless, unified shopping journey.</p>
+          <p>To meet these expectations, retailers, both large and small, should merge online and offline channels, delivering a consistent and cohesive shopping experience.</p>
+          <p>You might be wondering, that’s all great. But how do I achieve this?</p>
+          <p>We’ve got you covered.</p>
+          <p style="margin-bottom: 0 !important;">In partnership with Coresight Research, we’ve published <a href="https://locus.sh/omnichannel-to-unified-commerce-transform-your-retail-shopping-experience/" target="_blank">a detailed, extensive report</a> on how retailers can achieve unified commerce for improved customer experience and loyalty. You can leverage this report to:</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="white">
+      <mj-section padding="0">
+        <mj-column width="100%">
+          <mj-divider border-width="1px" border-color="#B066FF" padding-top="0" padding-bottom="0" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="50%">
+          <mj-text padding-top="20px" padding-bottom="20px" css-class="d-flex">
+            <img class="h-32p me-12" src="https://info.locus.sh/hubfs/Emailer%20images/coresight-report/coresight-report-icon-1.jpg" alt="icon">
+            <span>Understand what drives customer purchases</span>
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#B066FF" padding-top="0" padding-bottom="0" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text padding-top="20px" padding-bottom="20px" css-class="d-flex">
+            <img class="h-32p me-12" src="https://info.locus.sh/hubfs/Emailer%20images/coresight-report/coresight-report-icon-2.jpg" alt="icon">
+            <span>Gain insights on customers' top fulfillment choice</span>
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#B066FF" padding-top="0" padding-bottom="0" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="50%">
+          <mj-text padding-top="20px" padding-bottom="20px" css-class="d-flex">
+            <img class="h-32p me-12" src="https://info.locus.sh/hubfs/Emailer%20images/coresight-report/coresight-report-icon-3.jpg" alt="icon">
+            <span>Learn what the competition is struggling with</span>
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#B066FF" padding-top="0" padding-bottom="0" css-class="desk-d-none" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text padding-top="20px" padding-bottom="20px" css-class="d-flex">
+            <img class="h-32p me-12" src="https://info.locus.sh/hubfs/Emailer%20images/coresight-report/coresight-report-icon-4.jpg" alt="icon">
+            <span>Discover how digital transformation is essential for success</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="100%">
+          <mj-divider border-width="1px" border-color="#B066FF" padding-top="0" padding-bottom="0" />
+          <mj-spacer height="16px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section background-color="#B066FF" background-size="cover" background-url="https://info.locus.sh/hubfs/coresight-banner-2.jpg">
+      <mj-column width="100%">
+        <mj-text align="center" color="white" font-size="16px" font-weight="500" padding-top="0" padding-bottom="0">
+          <p style="margin-top: 0;">Gain valuable insights and make your brand <br class="mbl-d-none">stand out to your customers.</p>
+        </mj-text>
+        <mj-button background-color="white" border-radius="0" color="#290A38" font-weight="500" padding-top="0" padding-bottom="0" href="https://locus.sh/omnichannel-to-unified-commerce-transform-your-retail-shopping-experience/">Check Out The Report</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="0">
+      <mj-column width="100%">
+        <mj-text align="center">
+          <p>Onward and upward! 🚀 <br>Kay from Locus</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding-top="0">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-social align="center" icon-size="26px" mode="horizontal">
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-x.png" name="twitter-noshare" href="https://twitter.com/Locus_Sh"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-instagram.png" name="instagram-noshare" href="https://www.instagram.com/locus.sh/"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-youtube.png" name="youtube-noshare" href="https://www.youtube.com/channel/UCtbHoTbKKmhTAkKu4zY8WKA"></mj-social-element>
+          <mj-social-element background-color="transparent" src="https://info.locus.sh/hubfs/Emailer%20images/invite-mailer/social-icon-linkedin.png" name="linkedin-noshare" href="https://www.linkedin.com/company/locus-sh/"></mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" font-size="12px">
+          <span>{{ site_settings.company_name }},&nbsp;{{ site_settings.company_street_address_1 }},&nbsp;{{ site_settings.company_city }},&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }},&nbsp;{{ site_settings.company_country }},&nbsp;+1 (866) 373 9004</span>
+        </mj-text>
+        <mj-text align="center" font-size="12px">
+          <a class="hubspot-mergetag" data-unsubscribe="true" href="{{ unsubscribe_link_all }}">Unsubscribe</a>&nbsp;&nbsp;&nbsp;<a class="hubspot-mergetag" data-unsubscribe="true" href="{{ unsubscribe_link }}">Manage preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
