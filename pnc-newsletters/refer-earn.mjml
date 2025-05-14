@@ -1,0 +1,17 @@
+<mjml>
+  <mj-head>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/refer-earn/section-1.jpg" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/refer-earn/section-2.jpg" href="https://locus.freshteam.com/hire/jobs/4000063016/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/refer-earn/section-3.jpg" href="https://locus.freshteam.com/hire/jobs/4000062941/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/refer-earn/section-4.jpg" href="https://locus.freshteam.com/hire/jobs/4000063417/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/refer-earn/section-5.jpg" href="https://locus.freshteam.com/hire/jobs/4000063418/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/refer-earn/section-6.jpg" href="https://locus.freshteam.com/hire/jobs/4000063419/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/refer-earn/section-7.jpg" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
