@@ -1,0 +1,15 @@
+<mjml>
+  <mj-head>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/referal-email-aug2025/section-1.webp" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/referal-email-aug2025/section-2.webp" href="https://locus.freshteam.com/hire/jobs/4000062350/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/referal-email-aug2025/section-3.webp" href="https://locus.freshteam.com/hire/jobs/4000063825/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/referal-email-aug2025/section-4.webp" href="https://locus.freshteam.com/hire/jobs/4000063701/info" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/referal-email-aug2025/section-5.webp" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
