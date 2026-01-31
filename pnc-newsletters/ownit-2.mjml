@@ -1,0 +1,15 @@
+<mjml>
+  <mj-head>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/ownit/ownit-2-image-1.webp" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/ownit/ownit-2-image-2.webp" href="https://www.youtube.com/watch?v=M_0_2C3UeY8" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/ownit/ownit-2-image-3.webp" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/ownit/ownit-2-image-4.webp" href="https://docs.google.com/forms/d/17sS1YW3P_rQc66ioNoOufcNUKJ-4D8XtQ_QbZyKQML8/edit?pli=1" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/ownit/ownit-2-image-5.webp" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

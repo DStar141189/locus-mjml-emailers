@@ -1,0 +1,13 @@
+<mjml>
+  <mj-head>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/sales-kick-off-2026/sales-kick-off-1.png" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/sales-kick-off-2026/sales-kick-off-2.png" href="https://www.youtube.com/watch?v=JRL-Dv9pn8g" />
+        <mj-image padding="0" src="https://info.locus.sh/hubfs/Emailer%20images/pnc-newsletters/sales-kick-off-2026/sales-kick-off-3.png" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
